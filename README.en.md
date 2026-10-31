@@ -1,18 +1,14 @@
-<div align="center">
+# Luigi Scofano de Araujo · Software, AI and data
 
-# Luigi Scofano de Araujo
+**Computer Engineering at Poli-USP · Applications · Scientific computing · Research**
 
-**Computer Engineering at Poli-USP · Software · Artificial Intelligence · Data**
+[Português](README.md) · [LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en) · [Email](mailto:luigiscofano.dev@gmail.com)
 
-I build projects to understand problems, explore solutions, and turn knowledge into useful tools.
+## What this repository does
 
-[LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en) · [Email](mailto:luigiscofano.dev@gmail.com) · [Projects](https://github.com/luigiscofano?tab=repositories) · [Português](README.md)
+This repository renders my GitHub profile and helps readers navigate my projects. Each linked project explains its purpose, independent modules, setup, examples and current limits. It is a portfolio index, not an application that runs all repositories together.
 
-</div>
-
----
-
-## About me
+### About me
 
 I am a **Computer Engineering undergraduate at the University of São Paulo's Polytechnic School**, interested in software development, artificial intelligence, and data science. My background combines academic research, business data analysis, programming projects, and teaching.
 
@@ -23,30 +19,35 @@ I enjoy understanding how tools work: how a model interprets an image, how infor
 - **Currently learning:** Python, machine learning, and generative AI through an IBM learning program.
 - **Beyond code:** I teach Brazilian jiu-jitsu and previously helped manage the sport at Poli-USP's athletics association.
 
-[Public projects](#public-projects) · [Research and development](#research-and-development) · [Skills](#skills) · [Experience](#professional-experience) · [Education](#education-and-learning)
+## The problem it solves
 
-## Public projects
+Readers can select a project by interest and distinguish working applications, libraries, experiments and archived coursework. Implementation and validation details live in each repository rather than being inferred from its name.
 
-### [GestureLab — a computer vision laboratory](https://github.com/luigiscofano/gesturelab)
+## Features and project modules
 
-A **Python, OpenCV, and MediaPipe** application exploring four webcam interactions: hand tracking, gesture recognition, air writing, and body-pose matching against a local image catalog.
+### Public projects
 
-The project brings together modular code, geometric pose comparison, drawing export, automated tests, and installation, usage, and architecture guides.
-
-**What it demonstrates:** image processing, integration of pretrained models, interaction logic, and software development practices.
-
-[Source code](https://github.com/luigiscofano/gesturelab) · [Installation](https://github.com/luigiscofano/gesturelab/blob/main/docs/INSTALACAO.md) · [Architecture](https://github.com/luigiscofano/gesturelab/blob/main/docs/ARQUITETURA.md) · [Validation](https://github.com/luigiscofano/gesturelab/blob/main/docs/VALIDACAO.md)
-
-*Project documentation is in Portuguese.*
-
-### Foundations and academic projects
-
-| Project | Content | Learning focus |
+| Project | What it does | Current scope |
 | --- | --- | --- |
-| [Pokédex in Java](https://github.com/luigiscofano/Pokedex) | Pokémon models, types, health, and an object collection. | Classes, constructors, enumerations, and collections. |
-| [MAC0321 — Exercise Set 08](https://github.com/luigiscofano/MAC0321-Lista08) | Java exercises with a factorial interface, tests, collections, and adapters. | Separation of responsibilities, data structures, and software testing. |
+| [GestureLab](https://github.com/luigiscofano/gesturelab) | Four independent modes for hands, gestures, air drawing and body-pose matching. | Desktop app and tests |
+| [IC · PLN e Tupi Antigo](https://github.com/luigiscofano/ic-pln-tupi-antigo) | OCR, Unicode, lexicographic data auditing and documented research. | Tools and synthetic demonstration |
+| [Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos) | Seven notebooks on numerical error, roots, matrices, transforms, ODEs and synthetic GPS. | Notebooks and tests |
+| [Laboratório Digital I e II](https://github.com/luigiscofano/usp-labdig) | Eleven digital experiments and two physical games in Verilog and Processing. | Simulation; hardware acceptance pending |
+| [PCS3225 · Sistemas Digitais](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais) | Independent BCD converter, programmable calculator and RISC-V subset. | RTL, testbenches and waveforms |
+| [PCS3616 · Sistemas de Programação](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao) | Assembly byte reader, bounded stack and RPN calculator with a teaching runtime. | CLI, traces and tests |
+| [MAC0122 · Algoritmos](https://github.com/luigiscofano/usp-mac0122-algoritmos) | Genes, interval union, pair counting and Collatz. | Java/C programs |
+| [MAC0321 · POO](https://github.com/luigiscofano/usp-mac0321-poo) | Events, fictional simulation, State/CSV and frequency-based collections. | Libraries and demonstrations |
+| [Tetris em C](https://github.com/luigiscofano/tetris-c) | C11 game engine, terminal UI and deterministic replay. | Game and tests |
+| [Pokédex em Java](https://github.com/luigiscofano/Pokedex) | Classes, enums, copying and an in-memory collection. | Java console demonstration |
+| [MAC0321 · Lista 08](https://github.com/luigiscofano/MAC0321-Lista08) | Swing factorial, JUnit, collections and Adapter; coauthored with Hugo Spadete. | Academic source and exercise guides |
 
-The academic exercises document stages of my learning. GestureLab provides the most extensive documentation for visitors who want to start exploring my work.
+## How to run
+
+GitHub displays this page directly. To read a local copy, clone `https://github.com/luigiscofano/luigiscofano.git` and open `README.en.md` in a Markdown viewer. No server, build or dependencies are required for the profile. To run a project, use that repository's setup instructions; there is no shared command across Java programs, Python notebooks and hardware simulations.
+
+## What I developed and learned
+
+The portfolio connects domain modeling, algorithms, interfaces, data quality, scientific experiments and systems. Each repository identifies its own contribution, recovered material and collaborators. My professional and research background is preserved below.
 
 ## Research and development
 
@@ -142,3 +143,12 @@ I welcome conversations about projects, research, and opportunities in **softwar
 <div align="center">
 <em>Understand, build, and share.</em>
 </div>
+
+
+## Current status
+
+The profile is available in Portuguese and English. The project table links to public repositories; each README distinguishes implementation, validation and proposed work. Research and educational projects state the limits of their demonstrations.
+
+## Documentation and navigation
+
+[Project index](docs/PROJETOS.md) · [Documentation standard](docs/PADRAO_README.md) · [Português](README.md)

@@ -1,18 +1,16 @@
-<div align="center">
+# Luigi Scofano de Araujo · Software, IA e dados
 
-# Luigi Scofano de Araujo
+> Engenharia de Computação na Poli-USP. Portfólio de software, computação científica, sistemas digitais, visão computacional e pesquisa em processamento de linguagem natural.
 
-**Engenharia de Computação na Poli-USP · Software · Inteligência Artificial · Dados**
+[O que faz](#o-que-este-projeto-faz) · [Módulos](#funcionalidades-e-módulos) · [Executar](#como-executar) · [Aprendizagem](#o-que-desenvolvi-e-aprendi) · [Estado atual](#estado-atual) · [Documentação](#documentação-e-navegação)
 
-Construo projetos para entender problemas, experimentar soluções e transformar conhecimento em ferramentas úteis.
+[LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en) · [E-mail](mailto:luigiscofano.dev@gmail.com) · [English version](README.en.md)
 
-[LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en) · [E-mail](mailto:luigiscofano.dev@gmail.com) · [Projetos](https://github.com/luigiscofano?tab=repositories) · [English version](README.en.md)
+## O que este projeto faz
 
-</div>
+Este é o repositório que apresenta meu perfil no GitHub e organiza os caminhos para meus projetos. Cada projeto tem seu próprio README, com funcionalidades, comandos, exemplos, aprendizagem e limites. Esta página é um mapa do portfólio; não é um único aplicativo que instala e executa todos os outros.
 
----
-
-## Sobre mim
+### Sobre mim
 
 Sou graduando em **Engenharia de Computação na Escola Politécnica da Universidade de São Paulo**, com interesse em desenvolvimento de software, inteligência artificial e ciência de dados. Minha trajetória reúne pesquisa acadêmica, análise de dados em empresas, projetos de programação e ensino.
 
@@ -23,30 +21,31 @@ Gosto de entender o mecanismo por trás das ferramentas: como um modelo interpre
 - **Aprendizado atual:** Python, machine learning e IA generativa, com formação IBM em andamento.
 - **Além do código:** sou professor de jiu-jítsu e já atuei na gestão da modalidade na Atlética da Poli-USP.
 
-[Projetos públicos](#projetos-públicos) · [Pesquisa e desenvolvimento](#pesquisa-e-desenvolvimento) · [Competências](#competências) · [Trajetória](#trajetória-profissional) · [Formação](#formação-e-aprendizado)
+## Qual problema resolve
 
-## Projetos públicos
+Quem chega ao perfil pode escolher um projeto por interesse e descobrir rapidamente o que já está implementado. O portfólio separa programas executáveis, bibliotecas, experimentos, acervo acadêmico e iniciativas em desenvolvimento, para que o nome de uma disciplina não seja confundido com uma única aplicação.
 
-### [GestureLab — laboratório de visão computacional](https://github.com/luigiscofano/gesturelab)
+## Funcionalidades e módulos
 
-Uma aplicação em **Python, OpenCV e MediaPipe** para explorar quatro formas de interação pela webcam: rastreamento de mãos, reconhecimento de gestos, escrita no ar e comparação de poses corporais com um catálogo local.
+### Projetos públicos
 
-O projeto reúne organização modular, comparação geométrica de poses, exportação de desenhos, testes automatizados e documentação de instalação, uso e arquitetura.
-
-**O que este projeto mostra:** processamento de imagens, integração de modelos pré-treinados, lógica de interação e práticas de desenvolvimento.
-
-[Explorar o código](https://github.com/luigiscofano/gesturelab) · [Instalação](https://github.com/luigiscofano/gesturelab/blob/main/docs/INSTALACAO.md) · [Arquitetura](https://github.com/luigiscofano/gesturelab/blob/main/docs/ARQUITETURA.md) · [Validação](https://github.com/luigiscofano/gesturelab/blob/main/docs/VALIDACAO.md)
-
-### Fundamentos e projetos acadêmicos
-
-| Projeto | Conteúdo | Aprendizado |
+| Projeto | O que faz | Estado / ponto de entrada |
 | --- | --- | --- |
-| [Pokédex em Java](https://github.com/luigiscofano/Pokedex) | Modelagem de Pokémon, tipos, vida e uma coleção de objetos. | Classes, construtores, enumerações e coleções. |
-| [MAC0321 — Lista 08](https://github.com/luigiscofano/MAC0321-Lista08) | Exercícios em Java com interface de fatorial, testes, coleções e adaptadores. | Organização de responsabilidades, estruturas de dados e testes de software. |
+| [GestureLab](https://github.com/luigiscofano/gesturelab) | Interação por mãos, gestos, escrita no ar e poses; quatro modos independentes em Python. | Aplicação, testes e guias |
+| [IC · PLN e Tupi Antigo](https://github.com/luigiscofano/ic-pln-tupi-antigo) | OCR, Unicode, auditoria e revisão de dados lexicográficos, com acervo e parceria acadêmica. | Ferramentas e demonstração sintética |
+| [Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos) | Sete roteiros sobre aproximação, erro, sistemas lineares, sinais, EDO e GPS sintético. | Notebooks, biblioteca e testes |
+| [Laboratório Digital I e II](https://github.com/luigiscofano/usp-labdig) | Onze experiências e dois jogos físicos; Verilog, FSM, sensores, UART e Processing. | Simulação e acervo; bancada pendente |
+| [PCS3225 · Sistemas Digitais](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais) | Double-Dabble, calculadora e núcleo de subconjunto RISC-V, independentes entre si. | RTL, testbenches e VCD |
+| [PCS3616 · Sistemas de Programação](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao) | Leitor de bytes, pilha e RPN em Assembly, com montador e executor didáticos. | CLI, trace e testes |
+| [MAC0122 · Algoritmos](https://github.com/luigiscofano/usp-mac0122-algoritmos) | Genes, intervalos, pares e Collatz: contratos, invariantes, complexidade e testes. | Programas Java/C executáveis |
+| [MAC0321 · POO](https://github.com/luigiscofano/usp-mac0321-poo) | Eventos, simulação fictícia, State/CSV e multiconjuntos, com acervo separado. | Bibliotecas, demonstração e testes |
+| [Tetris em C](https://github.com/luigiscofano/tetris-c) | Motor de regras, interface de terminal e replay determinístico. | Jogo e suíte de verificação |
+| [Pokédex em Java](https://github.com/luigiscofano/Pokedex) | Objetos, tipos, construtores, cópia e coleção em memória. | Demonstração por terminal |
+| [MAC0321 · Lista 08](https://github.com/luigiscofano/MAC0321-Lista08) | Fatorial Swing, JUnit, coleções, Adapter e strings; coautoria com Hugo Spadete. | Fontes acadêmicos e instruções por exercício |
 
-Os exercícios acadêmicos registram etapas da minha formação. O GestureLab concentra a documentação mais completa para quem quer começar a explorar meu trabalho.
+**Para começar:** GestureLab oferece uma aplicação visual; Tetris permite jogar no terminal; Métodos Numéricos oferece experimentos científicos; os repositórios de sistemas digitais e Assembly mostram funcionamento em níveis mais próximos do hardware.
 
-## Pesquisa e desenvolvimento
+### Pesquisa e desenvolvimento
 
 ### Tupi Antigo · PLN, OCR e dados linguísticos
 
@@ -70,7 +69,22 @@ O princípio de design é fazer a dificuldade crescer pelas **decisões e relaç
 
 **Temas:** lógica de jogos, interfaces, design de níveis e objetivos pedagógicos. **Em desenvolvimento.**
 
-## Competências
+## Como executar
+
+O perfil é renderizado pelo próprio GitHub a partir deste README. Para ler uma cópia local:
+
+```sh
+git clone https://github.com/luigiscofano/luigiscofano.git
+cd luigiscofano
+```
+
+Abra `README.md` em um editor com prévia Markdown. Não há dependências, servidor ou build para esta página. Para **executar um projeto**, abra o repositório correspondente na tabela e siga sua seção “Como executar”; não existe um comando global para linguagens, notebooks e circuitos distintos.
+
+## O que desenvolvi e aprendi
+
+Os projetos registram aplicações, exercícios e pesquisa em diferentes camadas: modelagem e algoritmos, interfaces, dados, visão computacional, simulação e arquitetura. A autoria e a origem dos materiais são detalhadas em cada repositório, incluindo trabalhos em grupo e acervos docentes.
+
+### Competências
 
 Ferramentas e conhecimentos que utilizo em projetos, pesquisa, experiências profissionais e atividades da graduação:
 
@@ -86,7 +100,7 @@ Ferramentas e conhecimentos que utilizo em projetos, pesquisa, experiências pro
 
 **Em aprofundamento:** machine learning, IA generativa e engenharia de dados.
 
-## Trajetória profissional
+### Trajetória profissional
 
 **Núclea · Dados e indicadores de RH**  
 Trabalhei com bases de Remuneração e Benefícios, dashboards em Power BI e análises com Excel e MySQL. Estruturei indicadores de quadro de pessoal, contratações, desligamentos, remuneração e desempenho, além de automatizar a consolidação de informações e utilizar Git no versionamento.
@@ -99,7 +113,7 @@ Atuo na área comercial e desenvolvo protótipos para apoiar a prospecção e a 
 
 Essas experiências reforçam meu interesse por soluções que conectem necessidades de negócio, dados e implementação técnica.
 
-## Formação e aprendizado
+### Formação e aprendizado
 
 - **Engenharia de Computação — Escola Politécnica da USP:** graduação em andamento, com conclusão prevista para 2027.
 - **CS50 — Harvard / edX:** curso de introdução à computação concluído.
@@ -129,14 +143,28 @@ Na **Atlética da Poli-USP**, fui diretor de jiu-jítsu, com responsabilidades d
 
 </details>
 
-## Vamos conversar
+## Estado atual
 
-Tenho interesse em projetos, pesquisa e oportunidades em **desenvolvimento de software, IA e dados**, especialmente quando há um problema concreto para investigar e uma solução para construir.
+| Parte | Situação |
+| --- | --- |
+| Perfil | Apresentação em português e inglês |
+| Projetos públicos | Cada repositório informa seu estado, dependências e validação |
+| Pesquisa | Materiais e ferramentas de Tupi Antigo com escopo e procedência documentados |
+| Iniciativas em desenvolvimento | Descritas como evolução ou pesquisa; a descrição não substitui código e evidência de execução |
 
-**[LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en)** · **[luigiscofano.dev@gmail.com](mailto:luigiscofano.dev@gmail.com)**
+## Validação e limites
 
----
+Uma competência listada descreve experiência ou aprendizado, não certificação automática. A presença de CI, teste ou simulação é explicada no projeto correspondente; atividades de bancada, webcam e pesquisa têm critérios próprios.
 
-<div align="center">
-<em>Entender, construir e compartilhar.</em>
-</div>
+## Documentação e navegação
+
+[Índice dos projetos](docs/PROJETOS.md) · [Padrão dos READMEs](docs/PADRAO_README.md) · [English](README.en.md) · [Todos os repositórios públicos](https://github.com/luigiscofano?tab=repositories)
+
+## Autoria e contato
+
+**Luigi Scofano de Araujo.** Tenho interesse em projetos, pesquisa e oportunidades em desenvolvimento de software, IA e dados. [LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en) · [luigiscofano.dev@gmail.com](mailto:luigiscofano.dev@gmail.com).
+
+
+## Tópicos do repositório
+
+`github-profile` · `portfolio` · `computer-engineering` · `python` · `java` · `c` · `computer-vision` · `natural-language-processing` · `scientific-computing` · `usp`
