@@ -37,70 +37,27 @@ Gosto de entender o mecanismo por trás das ferramentas: como um modelo interpre
 
 **[Abrir repositório](https://github.com/luigiscofano/gesturelab)** · Python · OpenCV · MediaPipe · NumPy
 
-Laboratório de visão computacional que transforma a webcam em uma interface visual. O programa localiza pontos das mãos ou do corpo e usa essas coordenadas para desenhar conexões, reconhecer gestos, produzir traços e comparar poses. Os **quatro modos são independentes**, selecionados pela linha de comando:
-
-| Modo | O que já faz |
-| --- | --- |
-| `hands` | Mostra 21 pontos por mão, conexões e indicação de lado, com opção de exibir os índices. |
-| `gestures` | Exibe gestos de sete classes predefinidas, com limiar configurável para apresentação do resultado. |
-| `airwrite` | Usa o indicador como caneta, com suavização, pausa, desfazer e exportação do desenho em PNG e das trajetórias em JSON. |
-| `posematch` | Compara uma pose corporal com um catálogo local, usando normalização geométrica, ranking e rejeição por limiar. |
-
-**Meu trabalho:** integração dos modelos, CLI, captura e visualização, controle temporal da caneta, exportação, comparação geométrica, catálogo reproduzível e testes. O catálogo inicial do PoseMatch contém 12 ilustrações originais; o detector visual utiliza modelos pré-treinados do MediaPipe.
-
-**Estado atual:** aplicação de desktop com webcam e processamento de fotos nos modos compatíveis, documentação e CI. A escrita produz desenhos e trajetórias; reconhecimento de letras e palavras permanece como evolução. A busca de poses usa o catálogo local.
-
-[Instalação](https://github.com/luigiscofano/gesturelab/blob/main/docs/INSTALACAO.md) · [Uso e controles](https://github.com/luigiscofano/gesturelab/blob/main/docs/USO.md) · [Arquitetura](https://github.com/luigiscofano/gesturelab/blob/main/docs/ARQUITETURA.md) · [Validação](https://github.com/luigiscofano/gesturelab/blob/main/docs/VALIDACAO.md)
+Visão computacional com webcam para rastrear mãos, reconhecer gestos, desenhar no ar e comparar poses com um catálogo local. Reúne quatro modos independentes, controles interativos e exportação de desenhos e trajetórias.
 
 ### IC · Tupi Antigo, OCR e dados linguísticos
 
 **[Abrir repositório](https://github.com/luigiscofano/ic-pln-tupi-antigo)** · Python · PLN · OCR · Unicode · Jupyter
 
-Pesquisa de iniciação científica no **IME-USP**, orientada pelo **Prof. Dr. Marcelo Finger**, sobre extração e estruturação de dados para um dicionário eletrônico de Tupi Antigo. O problema central é transformar fontes lexicográficas em registros utilizáveis preservando grafias, diacríticos, localização na fonte e decisões de revisão.
+Iniciação científica no **IME-USP**, orientada pelo **Prof. Dr. Marcelo Finger**, sobre digitalização e organização de dados de Tupi Antigo. Inclui ferramentas de OCR, normalização Unicode, auditoria e revisão, com demonstração em dados fictícios.
 
-O repositório reúne um pipeline de importação TSV, preservação dos campos originais, normalização Unicode NFC, auditoria e exportação CSV/JSONL. Também inclui métricas de erro de caracteres e palavras, adaptador opcional para Tesseract, notebook demonstrativo, Colab recuperado e documentação científica.
-
-**Meu trabalho:** digitalização e estruturação lexicográfica, análise de erros, tratamento de Unicode e revisão rastreável. As ferramentas da edição de portfólio tornam explícitas a procedência dos dados e as verificações realizadas. Na pesquisa, também explorei o uso de modelos de linguagem na organização e revisão da informação.
-
-**Estado atual:** ferramentas executáveis e demonstração com três registros fictícios. O corpus integral validado não é distribuído; a demonstração funcional e as regras recuperadas não equivalem a validação linguística independente.
-
-**Parceria acadêmica:** o projeto relacionado [Dicionário Tupi-Português](https://caleberezende.github.io/tradutorestupi/) é de **Calebe Rezende**, com os devidos créditos e contexto registrados na documentação da IC.
-
-[Metodologia](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/docs/METODOLOGIA.md) · [Procedência](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/docs/PROCEDENCIA.md) · [Demonstração](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/notebooks/README.md) · [Validação](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/docs/VALIDACAO.md)
+**Parceria acadêmica:** [Dicionário Tupi-Português](https://caleberezende.github.io/tradutorestupi/), projeto de **Calebe Rezende**, com créditos e contexto na documentação da IC.
 
 ### Métodos Numéricos · Matemática em experimentos reproduzíveis
 
 **[Abrir repositório](https://github.com/luigiscofano/usp-metodos-numericos)** · Python · NumPy · SciPy · Matplotlib · Jupyter
 
-Sete roteiros que conectam a formulação matemática à implementação e à análise de resultados. O objetivo é investigar precisão, erro, convergência, estabilidade e custo computacional, com gráficos e referências de comparação.
-
-| Roteiro | Principais temas |
-| --- | --- |
-| 1 · Introdução a Python | Arrays, funções, máscaras, vetorização e tratamento de erros. |
-| 2 · Zeros e fractais | Newton real e complexo, raízes múltiplas e bacias de atração. |
-| 3 · Ponto flutuante e sistemas lineares | Cancelamento, eliminação de Gauss, pivotamento, PLU e condicionamento. |
-| 4 · DFT e FFT | Transformadas, reconstrução, espectros, aliasing e custo dos algoritmos. |
-| 5 · Interpolação | Newton, forma baricêntrica, nós de Chebyshev, fenômeno de Runge e splines. |
-| 6 · EDO e circuito de Chua | Euler, Heun, RK4, estabilidade, pêndulo e dinâmica não linear. |
-| 7 · GPS sintético | Pseudodistâncias, Gauss–Newton, coordenadas ECEF e efeito da geometria. |
-
-**Meu trabalho nesta edição:** biblioteca didática organizada em seis famílias de métodos, roteiros reelaborados, experimentos, figuras, testes e exportação automática para HTML. O acervo recuperado fica separado e preserva os créditos do material docente.
-
-**Estado atual:** notebooks, biblioteca e execução automatizada em kernel novo. O GPS utiliza dados sintéticos; os métodos têm limites documentados, como FFT radix-2 e EDO de passo fixo.
-
-[Catálogo dos notebooks](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/notebooks/README.md) · [Biblioteca](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/numericos/README.md) · [Guia matemático](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/docs/METODOS.md) · [Validação](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/docs/VALIDACAO.md)
+Notebooks e implementações de raízes, sistemas lineares, Fourier, interpolação, equações diferenciais e GPS sintético. Os experimentos usam gráficos para investigar precisão, convergência e estabilidade dos métodos.
 
 ### Tetris em C · Regras, terminal e replay
 
 **[Abrir repositório](https://github.com/luigiscofano/tetris-c)** · C11 · Make · Python para verificação
 
-Jogo de blocos em um tabuleiro 10×20, com sete peças, próxima peça, movimentação, rotação, colisões, remoção de linhas, pontuação, níveis, pausa e reinício. O terminal oferece a interação; o motor concentra as regras e pode ser exercitado separadamente.
-
-**Meu trabalho:** modelagem por matrizes, transformações geométricas, compactação de linhas, sorteio em sacos de sete e separação entre regras e plataforma. Uma seed e um arquivo de comandos permitem reproduzir a mesma partida, investigar falhas e comparar resultados. A implementação atual é uma nova edição de portfólio relacionada ao trabalho da graduação, com essa procedência documentada.
-
-**Estado atual:** jogo interativo, replay determinístico, testes do motor e da CLI, verificações do terminal POSIX e preview gerado a partir de uma partida. A rotação usa tentativas horizontais simples; recursos como hold, ghost e SRS ficam fora desta versão.
-
-[Instalação](https://github.com/luigiscofano/tetris-c/blob/main/docs/INSTALACAO.md) · [Regras](https://github.com/luigiscofano/tetris-c/blob/main/docs/REGRAS.md) · [Arquitetura](https://github.com/luigiscofano/tetris-c/blob/main/docs/ARQUITETURA.md) · [Replays](https://github.com/luigiscofano/tetris-c/blob/main/examples/README.md)
+Jogo de Tetris no terminal, com movimentação, rotação, pontuação e níveis. O motor é separado da interface e permite reproduzir partidas por replay, com testes das regras e da linha de comando.
 
 ## Sistemas digitais e arquitetura
 
@@ -108,48 +65,19 @@ Jogo de blocos em um tabuleiro 10×20, com sete peças, próxima peça, moviment
 
 **[Abrir repositório](https://github.com/luigiscofano/usp-labdig)** · Verilog · Icarus Verilog · FPGA/Quartus · Processing
 
-Acervo da Poli-USP organizado em **11 experiências e dois projetos integradores**, com fontes, relatórios, documentação e simulações. Cada alvo tem suas próprias dependências e pode ser estudado separadamente.
-
-- **LabDig I:** contadores, comparadores, máquinas de estados, entradas físicas e jogos de sequência e memória.
-- **LabDig II:** servo por PWM, UART, sensor ultrassônico HC-SR04, trena digital e sonar.
-- **Math Genius:** jogo de desafios aritméticos, com operações em ROM, seleção de dificuldade, resposta e feedback coordenados por controle e fluxo de dados.
-- **Guardião do Paredão:** jogo de avançar e parar que integra medição de posição, servo, sinalização e comunicação serial. A interface Processing mostra a rodada, guarda histórico, exporta CSV e possui modo de simulação sem placa.
-
-**Contribuição e aprendizado:** trabalhos em grupo, organização do acervo, correções e ferramentas de apoio; modelagem de FSM, unidade de controle, fluxo de dados, protocolos e integração de sensores/atuadores. A documentação reúne 210 fontes Verilog recuperados e 31 relatórios revisados, distinguindo versões históricas e alvos selecionados.
-
-**Estado atual:** compilação dos 13 alvos e cenários de simulação com asserções. Síntese, timing, pinagem e aceitação física das revisões desta edição permanecem como etapas de bancada; Math Genius e jogos de memória têm cobertura parcial de partidas.
-
-[Comece aqui](https://github.com/luigiscofano/usp-labdig/blob/main/docs/COMECE_AQUI.md) · [Math Genius](https://github.com/luigiscofano/usp-labdig/blob/main/projetos/math-genius/README.md) · [Guardião](https://github.com/luigiscofano/usp-labdig/blob/main/projetos/guardiao-do-paredao/README.md) · [Documentos](https://github.com/luigiscofano/usp-labdig/blob/main/docs/DOCUMENTOS.md)
+Experiências e projetos em grupo da Poli-USP com máquinas de estados, sensores, UART e PWM, incluindo os jogos Math Genius e Guardião do Paredão. Reúne código, relatórios e simulações; as revisões ainda têm validação em placa pendente.
 
 ### PCS3225 · Double-Dabble, calculadora e RISC-V
 
 **[Abrir repositório](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais)** · SystemVerilog · Icarus Verilog · GTKWave
 
-Três projetos independentes de Sistemas Digitais II que tornam observável o caminho entre algoritmo, registradores, controle e execução:
-
-| Projeto | Implementação disponível |
-| --- | --- |
-| Double-Dabble | Conversão binário–BCD, máquina de estados e handshake `start`/`done`, com testes para entradas de 8 e 18 bits. |
-| Calculadora programável | Datapath de 32 bits, 16 registradores, ROM e ISA didática própria com operações aritméticas e lógicas. |
-| Núcleo RISC-V | Subconjunto de 14 instruções, imediatos, banco de registradores, acessos alinhados e sinalização de instruções ilegais ou desalinhamento. |
-
-**Contribuição e aprendizado:** conversão numérica, controle sequencial, ULA, formatos de instrução e testbenches. Os arquivos VCD e as figuras permitem acompanhar sinais reais da simulação, como a conversão de 42 para BCD.
-
-**Estado atual:** RTL, programas de teste e formas de onda. O núcleo implementa um subconjunto didático de RISC-V; esta edição não inclui validação em FPGA.
-
-[Módulos RTL](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais/blob/main/rtl/README.md) · [Arquitetura e ISA](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais/blob/main/docs/ARQUITETURA.md) · [Formas de onda](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais/blob/main/assets/README.md)
+Três projetos de Sistemas Digitais II: conversor binário–BCD, calculadora programável e núcleo didático com um subconjunto de RISC-V. Inclui controle, fluxo de dados, testes e formas de onda de simulação.
 
 ### PCS3616 · Assembly MVN, pilha e calculadora RPN
 
 **[Abrir repositório](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao)** · Assembly MVN · Python
 
-Calculadora de notação pós-fixa executada por um ambiente didático de Máquina de Von Neumann. A expressão `12 3 +` produz 15 a partir do Assembly montado e executado. O percurso integra montador de duas passagens, máquina virtual, leitor de bytes, pilha limitada e scanner de operadores.
-
-**Contribuição e aprendizado:** representação de palavras e bytes, endianidade, chamadas de subrotina, pilha, montagem e tratamento de erros. O modo `--trace` permite seguir as instruções; casos de divisão por zero, operandos ausentes e estouro da pilha possuem status definidos.
-
-**Estado atual:** CLI, testes e rastreamento. A aritmética é modular de 16 bits e a pilha comporta 127 palavras. O executor implementa o subconjunto didático documentado, com limites de entrada e de execução.
-
-[Assembly](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao/blob/main/asm/README.md) · [Montador e máquina](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao/blob/main/mvn/README.md) · [Mapa de memória e ABI](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao/blob/main/docs/ARQUITETURA.md)
+Calculadora de notação pós-fixa em Assembly MVN, com montador e máquina virtual didáticos. Explora pilha, subrotinas, representação de dados e execução de instruções, com testes e rastreamento passo a passo.
 
 ## Algoritmos e orientação a objetos
 
@@ -157,48 +85,25 @@ Calculadora de notação pós-fixa executada por um ambiente didático de Máqui
 
 **[Abrir repositório](https://github.com/luigiscofano/usp-mac0122-algoritmos)** · Java · C11 · Python para verificação
 
-Quatro estudos independentes, com exemplos, contratos, análise de complexidade e testes:
-
-- **Busca de genes:** identifica inícios e términos no mesmo quadro de leitura, preservando ocorrências sobrepostas.
-- **União de intervalos:** ordena e combina intervalos fechados, calcula o comprimento da união e pode gerar uma representação SVG.
-- **Contagem de pares em A+A:** usa dois ponteiros em um vetor ordenado, considerando multiplicidades e índices distintos.
-- **Collatz em C:** registra passos, pico e estado de término, com proteção contra overflow e orçamento de execução.
-
-**Aprendizado:** justificar corretude por invariantes, analisar custo, tratar casos de fronteira e comparar algoritmos com referências simples. Os programas Java e a extensão C estão disponíveis com verificadores; o relatório histórico de Collatz fica separado das implementações desta edição.
-
-[Código e contratos](https://github.com/luigiscofano/usp-mac0122-algoritmos/blob/main/src/README.md) · [Guias por assunto](https://github.com/luigiscofano/usp-mac0122-algoritmos/blob/main/docs/topicos/README.md) · [Exemplos](https://github.com/luigiscofano/usp-mac0122-algoritmos/blob/main/examples/README.md)
+Estudos de busca de genes, união de intervalos, contagem de pares e sequência de Collatz. Exercitam estruturas de dados, análise de complexidade, invariantes e casos de fronteira, com exemplos e testes.
 
 ### MAC0321 · Eventos, estados, CSV e multiconjuntos
 
 **[Abrir repositório](https://github.com/luigiscofano/usp-mac0321-poo)** · Java · Orientação a objetos · Padrão State
 
-Estudos de responsabilidades, passagem do tempo e persistência. Os módulos têm propósitos próprios: agenda de eventos com fila de prioridade e desempate determinístico; simulação de paciente, médico e droga com regras fictícias; lançamentos com estados calculados a partir de um relógio explícito; persistência CSV com campos escapados; multiconjunto baseado em frequências.
-
-**Aprendizado:** composição de objetos, contratos, estados testáveis, valores decimais, leitura/escrita de arquivos e semântica de coleções. A simulação é um exercício de software; as regras não possuem validade clínica.
-
-**Estado atual:** módulos, demonstração no terminal e suíte de testes. O acervo da Lista 08 tem dependências próprias e permanece separado da suíte nova.
-
-[Documentação](https://github.com/luigiscofano/usp-mac0321-poo/blob/main/docs/README.md) · [Acervo](https://github.com/luigiscofano/usp-mac0321-poo/blob/main/acervo/README.md) · [Validação](https://github.com/luigiscofano/usp-mac0321-poo/blob/main/docs/VALIDACAO.md)
+Exercícios de orientação a objetos com simulação de eventos, transições de estado, persistência CSV e multiconjuntos. O foco está na divisão de responsabilidades, composição de objetos e testes.
 
 ### Pokédex em Java · Primeiros modelos orientados a objetos
 
 **[Abrir repositório](https://github.com/luigiscofano/Pokedex)** · Java · Classes · Enumerações · Coleções
 
-Demonstração pequena para estudar modelagem de entidades: Pokémon com espécie, tipos, treinador e vida, construtores sobrecarregados, cópia, dano e armazenamento em `ArrayList`. O programa cria quatro personagens e imprime os resultados no terminal.
-
-**Aprendizado e estado atual:** encapsulamento básico, enumerações, generics e `toString`, em uma aplicação sem dependências externas. Os dados ficam em memória. Validação de dano/vida, persistência e suíte automatizada são evoluções possíveis; os limites atuais estão descritos no README.
-
-[Mapa do código](https://github.com/luigiscofano/Pokedex/blob/main/src/README.md) · [Programa principal](https://github.com/luigiscofano/Pokedex/blob/main/src/Main.java)
+Aplicação de terminal para praticar modelagem de Pokémon e treinadores, encapsulamento, enumerações e coleções. Os dados ficam em memória, em uma demonstração sem dependências externas.
 
 ### MAC0321 · Lista 08, Swing e padrões de projeto
 
 **[Abrir repositório](https://github.com/luigiscofano/MAC0321-Lista08)** · Java · Swing · JUnit · Adapter
 
-Trabalho acadêmico em **coautoria com Hugo Spadete Arrivabene**. Reúne exercícios independentes de fatorial com interface Swing, testes do controlador, wrappers de coleções, adaptação para iteração de valores únicos e comparação de concatenação de strings.
-
-**Aprendizado e estado atual:** separação de interface e lógica, exceções, testes, generics e adaptação por composição. Os 13 fontes históricos e os guias por exercício estão disponíveis. A interface exige ambiente gráfico; testes de aceitação podem pedir interação. O fatorial usa `long` e pode exceder sua capacidade acima de 20!.
-
-[Índice dos exercícios](https://github.com/luigiscofano/MAC0321-Lista08/blob/master/src/README.md)
+Exercícios em **coautoria com Hugo Spadete Arrivabene** sobre interfaces Swing, testes, coleções e padrão Adapter. Exploram separação entre interface e lógica, generics e adaptação por composição.
 
 ## Como explorar e executar
 

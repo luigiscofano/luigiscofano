@@ -37,70 +37,25 @@ I enjoy understanding how tools work: how a model interprets an image, how infor
 
 **[Repository](https://github.com/luigiscofano/gesturelab)** · Python · OpenCV · MediaPipe · NumPy
 
-A computer vision laboratory that turns a webcam into a visual interface. Detected hand or body landmarks drive overlays, gesture labels, persistent strokes, and geometric pose comparisons. Its **four modes run independently**, selected through the command line:
-
-| Mode | Available behavior |
-| --- | --- |
-| `hands` | Displays 21 landmarks per hand, connections, handedness, and optional landmark indices. |
-| `gestures` | Shows gestures from seven predefined classes, with a configurable display threshold. |
-| `airwrite` | Uses the index finger as a pen, with smoothing, pause, undo, PNG export, and JSON trajectories. |
-| `posematch` | Compares a body pose against a local catalog using geometric normalization, ranking, and threshold-based rejection. |
-
-**My work:** model integration, CLI, capture and visualization, temporal pen state, export, geometric comparison, a reproducible catalog, and tests. The initial PoseMatch catalog contains 12 original illustrations; visual detection uses pretrained MediaPipe models.
-
-**Current status:** desktop application, webcam input, still-image processing in compatible modes, documentation, and CI. Air writing produces drawings and trajectories; recognizing letters and words remains a proposed extension. Pose matching uses the local catalog.
-
-[Installation](https://github.com/luigiscofano/gesturelab/blob/main/docs/INSTALACAO.md) · [Usage](https://github.com/luigiscofano/gesturelab/blob/main/docs/USO.md) · [Architecture](https://github.com/luigiscofano/gesturelab/blob/main/docs/ARQUITETURA.md) · [Validation](https://github.com/luigiscofano/gesturelab/blob/main/docs/VALIDACAO.md)
+Computer vision application with four independent modes: hand tracking, gesture recognition, drawing in the air, and pose matching against a local catalog. Uses pretrained MediaPipe models, with drawing export, geometric comparisons, and tests. Air writing currently produces drawings and trajectories.
 
 ### Old Tupi research · OCR and linguistic data
 
 **[Repository](https://github.com/luigiscofano/ic-pln-tupi-antigo)** · Python · NLP · OCR · Unicode · Jupyter
 
-Undergraduate research at **IME-USP**, supervised by **Prof. Dr. Marcelo Finger**, on extracting and structuring data for an electronic Old Tupi dictionary. The central challenge is turning lexicographic sources into usable records while preserving spellings, diacritics, source locations, and review decisions.
-
-The repository includes TSV import, original-field preservation, Unicode NFC normalization, auditing, and CSV/JSONL export. It also provides character and word error metrics, an optional Tesseract adapter, a demonstration notebook, a recovered Colab notebook, and methodology documentation.
-
-**My work:** digitization, lexicographic structuring, error analysis, Unicode handling, and traceable review. Portfolio tools expose data provenance and the checks performed. The research also explored language models for organizing and reviewing information.
-
-**Current status:** executable tools and a demonstration with three fictional records. The complete validated corpus is not distributed; functional demonstrations and recovered rules do not establish independent linguistic validation.
-
-**Academic collaboration:** the related [Tupi–Portuguese Dictionary](https://caleberezende.github.io/tradutorestupi/) is maintained by **Calebe Rezende**, with credit and context recorded in the research documentation.
-
-[Methodology](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/docs/METODOLOGIA.md) · [Provenance](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/docs/PROCEDENCIA.md) · [Demonstration](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/notebooks/README.md) · [Validation](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/docs/VALIDACAO.md)
+Research at IME-USP supervised by **Prof. Dr. Marcelo Finger**, focused on digitizing and structuring Old Tupi dictionary data with Unicode preservation and traceable review. Includes auditing tools and a synthetic demonstration. Academic partner **Calebe Rezende** maintains the related [Tupi–Portuguese Dictionary](https://caleberezende.github.io/tradutorestupi/).
 
 ### Numerical Methods · Reproducible mathematical experiments
 
 **[Repository](https://github.com/luigiscofano/usp-metodos-numericos)** · Python · NumPy · SciPy · Matplotlib · Jupyter
 
-Seven notebooks connect mathematical formulations to implementation and analysis. Experiments investigate precision, error, convergence, stability, and computational cost through plots and comparison references.
-
-| Notebook | Main topics |
-| --- | --- |
-| 1 · Python introduction | Arrays, functions, masks, vectorization, and error handling. |
-| 2 · Roots and fractals | Real and complex Newton methods, multiple roots, and basins of attraction. |
-| 3 · Floating point and linear systems | Cancellation, Gaussian elimination, pivoting, PLU, and conditioning. |
-| 4 · DFT and FFT | Transforms, reconstruction, spectra, aliasing, and algorithmic cost. |
-| 5 · Interpolation | Newton, barycentric form, Chebyshev nodes, Runge's phenomenon, and splines. |
-| 6 · ODEs and Chua's circuit | Euler, Heun, RK4, stability, pendulum, and nonlinear dynamics. |
-| 7 · Synthetic GPS | Pseudoranges, Gauss–Newton, ECEF coordinates, and geometry effects. |
-
-**My work in this edition:** an educational library with six method families, revised notebooks, experiments, figures, tests, and automated HTML export. Recovered course materials remain in a separate archive with teaching-material credits preserved.
-
-**Current status:** notebooks, library, and automated execution in fresh kernels. GPS uses synthetic data; limitations such as radix-2 FFT and fixed-step ODE methods are documented.
-
-[Notebook catalog](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/notebooks/README.md) · [Library](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/numericos/README.md) · [Mathematical guide](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/docs/METODOS.md) · [Validation](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/docs/VALIDACAO.md)
+Notebooks and an educational library covering roots, linear systems, Fourier transforms, interpolation, differential equations, and synthetic GPS. Experiments combine implementations, plots, and tests to study precision, convergence, and stability.
 
 ### Tetris in C · Rules, terminal, and replay
 
 **[Repository](https://github.com/luigiscofano/tetris-c)** · C11 · Make · Python verification tools
 
-A falling-block game on a 10×20 board, with seven pieces, next-piece display, movement, rotation, collision handling, line clearing, scoring, levels, pause, and restart. The terminal handles interaction while a separate engine implements the rules.
-
-**My work:** matrix modeling, geometric transformations, line compaction, seven-bag randomization, and separation of rules from platform code. A seed and command file reproduce the same game for debugging and comparisons. This is a new portfolio implementation related to university coursework, with its provenance documented.
-
-**Current status:** interactive play, deterministic replay, engine and CLI tests, POSIX terminal checks, and a preview generated from a replay. Rotation uses simple horizontal attempts; hold, ghost pieces, and SRS are outside this version.
-
-[Installation](https://github.com/luigiscofano/tetris-c/blob/main/docs/INSTALACAO.md) · [Rules](https://github.com/luigiscofano/tetris-c/blob/main/docs/REGRAS.md) · [Architecture](https://github.com/luigiscofano/tetris-c/blob/main/docs/ARQUITETURA.md) · [Replays](https://github.com/luigiscofano/tetris-c/blob/main/examples/README.md)
+Terminal game with movement, rotation, line clearing, scoring, and levels. A separate rules engine, deterministic replay, and tests support debugging and reproducibility. This portfolio implementation builds on university coursework.
 
 ## Digital systems and computer architecture
 
@@ -108,48 +63,19 @@ A falling-block game on a 10×20 board, with seven pieces, next-piece display, m
 
 **[Repository](https://github.com/luigiscofano/usp-labdig)** · Verilog · Icarus Verilog · FPGA/Quartus · Processing
 
-Poli-USP coursework organized into **11 experiments and two integrated projects**, with source code, reports, documentation, and simulations. Targets have their own dependencies and can be studied separately.
-
-- **LabDig I:** counters, comparators, finite-state machines, physical inputs, and sequence/memory games.
-- **LabDig II:** PWM servo control, UART, the HC-SR04 ultrasonic sensor, digital distance measurement, and sonar.
-- **Math Genius:** arithmetic challenges stored in ROM, with difficulty selection, answers, and feedback coordinated by control and datapath logic.
-- **Guardião do Paredão:** a move-and-stop game combining position measurements, servo control, signaling, and serial communication. Its Processing interface displays the round, keeps history, exports CSV, and provides a simulation mode without a board.
-
-**Contribution and learning:** group coursework, archive organization, corrections, and supporting tools; FSM modeling, control/datapath separation, protocols, and sensor/actuator integration. Documentation covers 210 recovered Verilog sources and 31 revised reports, distinguishing historical variants from selected targets.
-
-**Current status:** compilation of 13 targets and simulation scenarios with assertions. Synthesis, timing, pin assignments, and physical acceptance of this edition's revisions remain hardware steps; complete game coverage is still pending for Math Genius and the memory games.
-
-[Start here](https://github.com/luigiscofano/usp-labdig/blob/main/docs/COMECE_AQUI.md) · [Math Genius](https://github.com/luigiscofano/usp-labdig/blob/main/projetos/math-genius/README.md) · [Guardião](https://github.com/luigiscofano/usp-labdig/blob/main/projetos/guardiao-do-paredao/README.md) · [Documents](https://github.com/luigiscofano/usp-labdig/blob/main/docs/DOCUMENTOS.md)
+Group coursework with circuits, state machines, UART, PWM, and sensors, including the Math Genius and Guardião do Paredão games. Includes source code, reports, and simulations; revised hardware designs still require physical validation.
 
 ### PCS3225 · Double-Dabble, calculator, and RISC-V
 
 **[Repository](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais)** · SystemVerilog · Icarus Verilog · GTKWave
 
-Three independent Digital Systems II projects make the path from algorithm to registers, control signals, and execution observable.
-
-| Project | Available implementation |
-| --- | --- |
-| Double-Dabble | Binary-to-BCD conversion, a state machine, and `start`/`done` handshake, tested with 8- and 18-bit inputs. |
-| Programmable calculator | A 32-bit datapath, 16 registers, ROM, and a custom educational ISA with arithmetic and logic operations. |
-| RISC-V core | A 14-instruction subset, immediate decoding, register file, aligned accesses, and illegal-instruction/misalignment signaling. |
-
-**Contribution and learning:** number conversion, sequential control, ALUs, instruction formats, and testbenches. VCD files and figures expose actual simulated signals, including the conversion of 42 to BCD.
-
-**Current status:** RTL, test programs, and waveforms. The core implements an educational RISC-V subset; this edition does not include FPGA validation.
-
-[RTL modules](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais/blob/main/rtl/README.md) · [Architecture and ISA](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais/blob/main/docs/ARQUITETURA.md) · [Waveforms](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais/blob/main/assets/README.md)
+Three Digital Systems II projects: binary-to-BCD conversion, a programmable calculator, and an educational RISC-V subset. Includes control logic, datapaths, testbenches, and waveforms for exploring circuit behavior through simulation.
 
 ### PCS3616 · MVN Assembly, stack, and RPN calculator
 
 **[Repository](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao)** · MVN Assembly · Python
 
-A postfix calculator running on an educational von Neumann machine. The expression `12 3 +` produces 15 through assembled and executed code. The pipeline combines a two-pass assembler, virtual machine, byte reader, bounded stack, and operator scanner.
-
-**Contribution and learning:** word/byte representation, endianness, subroutine calls, stacks, assembly, and error handling. The `--trace` mode follows instructions; division by zero, missing operands, and stack overflow have explicit status codes.
-
-**Current status:** CLI, tests, and tracing. Arithmetic wraps at 16 bits and the stack holds 127 words. The runtime implements the documented educational subset with bounded input and execution.
-
-[Assembly](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao/blob/main/asm/README.md) · [Assembler and machine](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao/blob/main/mvn/README.md) · [Memory map and ABI](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao/blob/main/docs/ARQUITETURA.md)
+Postfix calculator in MVN Assembly, with a two-pass assembler, educational virtual machine, and stack. Tests and instruction tracing help explore low-level execution, subroutines, and error handling.
 
 ## Algorithms and object-oriented programming
 
@@ -157,48 +83,25 @@ A postfix calculator running on an educational von Neumann machine. The expressi
 
 **[Repository](https://github.com/luigiscofano/usp-mac0122-algoritmos)** · Java · C11 · Python verification tools
 
-Four independent studies with examples, contracts, complexity analysis, and tests:
-
-- **Gene search:** finds start/stop sequences in the same reading frame while retaining overlapping occurrences.
-- **Interval union:** sorts and merges closed intervals, computes total length, and can generate an SVG.
-- **Pair counting in A+A:** uses two pointers on a sorted array, accounting for multiplicities and distinct indices.
-- **Collatz in C:** records steps, peak values, and termination status, with overflow protection and an execution budget.
-
-**Learning and status:** correctness through invariants, cost analysis, edge cases, and comparison against simple references. Java programs and the C extension have verification tools; the recovered Collatz report is kept separately from this edition's implementations.
-
-[Code and contracts](https://github.com/luigiscofano/usp-mac0122-algoritmos/blob/main/src/README.md) · [Topic guides](https://github.com/luigiscofano/usp-mac0122-algoritmos/blob/main/docs/topicos/README.md) · [Examples](https://github.com/luigiscofano/usp-mac0122-algoritmos/blob/main/examples/README.md)
+Studies of gene search, interval union, pair counting, and the Collatz sequence. Implementations include examples, tests, and complexity analysis, emphasizing correctness, invariants, and edge cases.
 
 ### MAC0321 · Events, states, CSV, and multisets
 
 **[Repository](https://github.com/luigiscofano/usp-mac0321-poo)** · Java · Object-oriented programming · State pattern
 
-Studies of responsibilities, time, and persistence. Modules serve separate purposes: a priority-queue event scheduler with deterministic tie-breaking; a patient/doctor/drug simulation with fictional rules; financial entries whose states depend on an explicit clock; CSV persistence with escaped fields; and a frequency-based multiset.
-
-**Learning:** object composition, contracts, testable states, decimal values, file handling, and collection semantics. The simulation is a software exercise with no clinical validity.
-
-**Current status:** modules, terminal demonstration, and tests. The historical Lista 08 archive has its own dependencies and remains outside the new test suite.
-
-[Documentation](https://github.com/luigiscofano/usp-mac0321-poo/blob/main/docs/README.md) · [Archive](https://github.com/luigiscofano/usp-mac0321-poo/blob/main/acervo/README.md) · [Validation](https://github.com/luigiscofano/usp-mac0321-poo/blob/main/docs/VALIDACAO.md)
+Object-oriented exercises covering event scheduling, state transitions, CSV persistence, and multisets. Demonstrations and tests explore object composition, collections, and file handling; the patient simulation uses fictional rules.
 
 ### Pokédex in Java · Introductory object models
 
 **[Repository](https://github.com/luigiscofano/Pokedex)** · Java · Classes · Enums · Collections
 
-A small entity-modeling demonstration: Pokémon with species, types, trainer, and health; overloaded constructors, copying, damage, and an `ArrayList`. The program creates four characters and prints results in the terminal.
-
-**Learning and status:** basic encapsulation, enums, generics, and `toString` in an application without external dependencies. Data lives in memory. Damage/health validation, persistence, and automated tests are possible extensions; current limits are described in the README.
-
-[Code map](https://github.com/luigiscofano/Pokedex/blob/main/src/README.md) · [Entry point](https://github.com/luigiscofano/Pokedex/blob/main/src/Main.java)
+A terminal demonstration of Pokémon modeling through classes, constructors, enums, and collections. Exercises basic encapsulation and object interactions, with data stored in memory and no external dependencies.
 
 ### MAC0321 · Lista 08, Swing, and design patterns
 
 **[Repository](https://github.com/luigiscofano/MAC0321-Lista08)** · Java · Swing · JUnit · Adapter
 
-Coursework **coauthored with Hugo Spadete Arrivabene**. Independent exercises cover a Swing factorial interface, controller tests, collection wrappers, an adapter for unique-value iteration, and a string-concatenation comparison.
-
-**Learning and status:** interface/logic separation, exceptions, tests, generics, and composition-based adaptation. The 13 historical source files and per-exercise guides are available. The interface requires a graphical environment and acceptance tests may require interaction. Factorial uses `long` and can overflow above 20!.
-
-[Exercise index](https://github.com/luigiscofano/MAC0321-Lista08/blob/master/src/README.md)
+Coursework **coauthored with Hugo Spadete Arrivabene**, covering a Swing interface, controller tests, collection wrappers, and the Adapter pattern. Exercises focus on separating interface and logic, generics, exceptions, and composition.
 
 ## How to explore and run the projects
 
