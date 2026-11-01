@@ -58,4 +58,5 @@ Execute os comandos **na raiz do respectivo repositório, depois de seguir sua i
 
 Intuição e o museu virtual do LASSu-USP são apresentados na seção de pesquisa e desenvolvimento do perfil. Este índice reúne os repositórios públicos disponíveis para navegação no GitHub.
 
-[Voltar ao perfil](../README.md) · [Padrão dos READMEs](PADRAO_README.md)
+[Voltar ao perfil](../README.md) · [Padrão dos READMEs](PADRAO_README.md) · [Verificar links internos](../scripts/README.md)
+
