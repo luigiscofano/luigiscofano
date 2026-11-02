@@ -242,4 +242,4 @@ Este repositório é a apresentação do perfil, renderizada diretamente pelo Gi
 
 Tenho interesse em projetos, pesquisa e oportunidades em **desenvolvimento de software, inteligência artificial e dados**, especialmente quando há um problema concreto para investigar e uma solução para construir.
 
-**[LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en)** · **[luigiscofano.dev@gmail.com](mailto:luigiscofano.dev@gmail.com)**
+**[LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en)** · **[luigiscofano.dev@gmail.com](mailto:luigiscofano.dev@gmail.com)** · **[luigiaraujo23@gmail.com](mailto:luigiaraujo23@gmail.com)**
