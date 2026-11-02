@@ -43,11 +43,15 @@ Desenvolvo uma plataforma educativa com **11 jogos no navegador: oito campanhas 
 
 O projeto também aplica **inteligência artificial a jogos**: DESVIO utiliza busca exata com memoização nos mapas suportados; CERCO usa minimax com poda alfa-beta e heurísticas, dentro de um orçamento de busca. A proposta é fazer a dificuldade crescer pelas decisões e relações que o jogador descobre, valorizando raciocínio e autonomia.
 
+---
+
 ### GestureLab · Mãos, gestos, escrita no ar e poses
 
 **[Abrir repositório](https://github.com/luigiscofano/gesturelab)** · Python · OpenCV · MediaPipe · NumPy
 
 Visão computacional com webcam para rastrear mãos, reconhecer gestos, desenhar no ar e comparar poses com um catálogo local. Reúne quatro modos independentes, controles interativos e exportação de desenhos e trajetórias.
+
+---
 
 ### IC · Tupi Antigo, OCR e dados linguísticos
 
@@ -57,11 +61,15 @@ Iniciação científica no **IME-USP**, orientada pelo **Prof. Dr. Marcelo Finge
 
 **Parceria acadêmica:** [Dicionário Tupi-Português](https://caleberezende.github.io/tradutorestupi/), projeto de **Calebe Rezende**, com créditos e contexto na documentação da IC.
 
+---
+
 ### Métodos Numéricos · Matemática em experimentos reproduzíveis
 
 **[Abrir repositório](https://github.com/luigiscofano/usp-metodos-numericos)** · Python · NumPy · SciPy · Matplotlib · Jupyter
 
 Notebooks e implementações de raízes, sistemas lineares, Fourier, interpolação, equações diferenciais e GPS sintético. Os experimentos usam gráficos para investigar precisão, convergência e estabilidade dos métodos.
+
+---
 
 ### Tetris em C · Regras, terminal e replay
 
@@ -77,11 +85,15 @@ Jogo de Tetris no terminal, com movimentação, rotação, pontuação e níveis
 
 Experiências e projetos em grupo da Poli-USP com máquinas de estados, sensores, UART e PWM, incluindo os jogos Math Genius e Guardião do Paredão. Reúne código, relatórios e simulações; as revisões ainda têm validação em placa pendente.
 
+---
+
 ### PCS3225 · Double-Dabble, calculadora e RISC-V
 
 **[Abrir repositório](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais)** · SystemVerilog · Icarus Verilog · GTKWave
 
 Três projetos de Sistemas Digitais II: conversor binário–BCD, calculadora programável e núcleo didático com um subconjunto de RISC-V. Inclui controle, fluxo de dados, testes e formas de onda de simulação.
+
+---
 
 ### PCS3616 · Assembly MVN, pilha e calculadora RPN
 
@@ -97,17 +109,23 @@ Calculadora de notação pós-fixa em Assembly MVN, com montador e máquina virt
 
 Estudos de busca de genes, união de intervalos, contagem de pares e sequência de Collatz. Exercitam estruturas de dados, análise de complexidade, invariantes e casos de fronteira, com exemplos e testes.
 
+---
+
 ### MAC0321 · Eventos, estados, CSV e multiconjuntos
 
 **[Abrir repositório](https://github.com/luigiscofano/usp-mac0321-poo)** · Java · Orientação a objetos · Padrão State
 
 Exercícios de orientação a objetos com simulação de eventos, transições de estado, persistência CSV e multiconjuntos. O foco está na divisão de responsabilidades, composição de objetos e testes.
 
+---
+
 ### Pokédex em Java · Primeiros modelos orientados a objetos
 
 **[Abrir repositório](https://github.com/luigiscofano/Pokedex)** · Java · Classes · Enumerações · Coleções
 
 Aplicação de terminal para praticar modelagem de Pokémon e treinadores, encapsulamento, enumerações e coleções. Os dados ficam em memória, em uma demonstração sem dependências externas.
+
+---
 
 ### MAC0321 · Lista 08, Swing e padrões de projeto
 
