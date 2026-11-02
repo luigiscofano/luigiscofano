@@ -23,6 +23,7 @@ Gosto de entender o mecanismo por trás das ferramentas: como um modelo interpre
 
 | Se você quer conhecer… | Comece por |
 | --- | --- |
+| Jogos de lógica, geometria e estratégia com IA no navegador | [Intuição](https://github.com/luigiscofano/intuicao) |
 | Uma aplicação visual com webcam e interação por gestos | [GestureLab](https://github.com/luigiscofano/gesturelab) |
 | Pesquisa em linguagem, OCR e qualidade de dados | [IC · Tupi Antigo](https://github.com/luigiscofano/ic-pln-tupi-antigo) |
 | Experimentos matemáticos com código, gráficos e notebooks | [Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos) |
@@ -32,6 +33,15 @@ Gosto de entender o mecanismo por trás das ferramentas: como um modelo interpre
 | Algoritmos, orientação a objetos e fundamentos de Java | [MAC0122](https://github.com/luigiscofano/usp-mac0122-algoritmos), [MAC0321](https://github.com/luigiscofano/usp-mac0321-poo) e [Pokédex](https://github.com/luigiscofano/Pokedex) |
 
 ## Projetos em destaque
+
+### Intuição · Jogos de lógica, geometria e estratégia
+
+**[Abrir repositório](https://github.com/luigiscofano/intuicao)** · HTML · CSS · JavaScript · IA para jogos  
+[Abrir o site (acesso controlado)](https://intuicao-luigi-minigames.luigiscofano.chatgpt.site) · [Manuais dos jogos](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md) · [Quadro de desenvolvimento](https://github.com/users/luigiscofano/projects/1)
+
+Desenvolvo uma plataforma educativa com **11 jogos no navegador: oito campanhas solo, 640 fases e três jogos Versus**. Os desafios exploram lógica, geometria e estratégia, com regras acessíveis, dificuldade progressiva e identidade visual inspirada em animais brasileiros em pixel art. Meu trabalho reúne mecânicas, construção de fases, dicas, interfaces e documentação.
+
+O projeto também aplica **inteligência artificial a jogos**: DESVIO utiliza busca exata com memoização nos mapas suportados; CERCO usa minimax com poda alfa-beta e heurísticas, dentro de um orçamento de busca. A proposta é fazer a dificuldade crescer pelas decisões e relações que o jogador descobre, valorizando raciocínio e autonomia.
 
 ### GestureLab · Mãos, gestos, escrita no ar e poses
 
@@ -111,6 +121,7 @@ Cada repositório explica **o problema, os módulos, a instalação, uma primeir
 
 | Família | Preparação típica | Primeiro caminho |
 | --- | --- | --- |
+| Intuição | Navegador e Python 3 para servir os arquivos de `dist/` por HTTP | Seguir o [guia de execução local](https://github.com/luigiscofano/intuicao#executar-no-computador), escolher um jogo e explorar as regras. |
 | GestureLab | Python 3.12, ambiente virtual, dependências, modelos e câmera/ambiente gráfico | Iniciar `hands`; depois experimentar os outros modos. |
 | Tupi Antigo e Métodos Numéricos | Python 3.12, dependências e kernel para notebooks | Rodar a demonstração TSV ou executar/exportar os roteiros. |
 | Tetris | Compilador C11, GNU Make e terminal ANSI | `make demo` para replay; modo interativo para jogar. |
@@ -134,6 +145,7 @@ A expressão deve devolver `status: 0` e `resultado: 15`; o rastreamento fica em
 | Área | Ferramentas e conhecimentos | Aplicação no portfólio ou na trajetória |
 | --- | --- | --- |
 | **Desenvolvimento de software** | Python, Java, C; JavaScript e TypeScript em projetos web | Aplicações locais, CLI, bibliotecas, modelagem de domínio e interfaces. |
+| **IA para jogos** | Busca de estados, memoização, minimax, poda alfa-beta e heurísticas | Intuição: bots de DESVIO e CERCO, com decisões calculadas no navegador. |
 | **Visão computacional** | OpenCV, MediaPipe, NumPy, coordenadas e estado temporal | GestureLab: modelos pré-treinados, caneta por gestos e comparação de poses. |
 | **PLN e documentos** | OCR, Unicode, dados lexicográficos, avaliação textual e estudo de LLMs | IC de Tupi Antigo: extração, preservação da fonte, auditoria e revisão. |
 | **Computação científica** | NumPy, SciPy, Matplotlib e Jupyter | Implementação de métodos, gráficos, convergência e experimentos reproduzíveis. |
@@ -154,14 +166,6 @@ Além da [pesquisa em Tupi Antigo](#ic--tupi-antigo-ocr-e-dados-linguísticos), 
 Contribuo para um **museu interativo sobre a história da computação**, com ambiente 3D acessível pelo navegador. O trabalho utiliza **Three.js, TypeScript e Vite** e envolve navegação, interação com objetos e apresentação de conteúdo educativo.
 
 **Temas:** desenvolvimento web, computação gráfica, ambientes 3D e aprendizagem.
-
-### Intuição · Jogos de lógica e aprendizagem
-
-Desenvolvo uma plataforma de puzzles com regras acessíveis, dificuldade progressiva e espaço para experimentar. Meu trabalho envolve as mecânicas, a construção de fases, as dicas e a experiência de uso.
-
-O princípio de design é fazer a dificuldade crescer pelas **decisões e relações que o jogador precisa descobrir**, valorizando raciocínio lógico e autonomia.
-
-**Temas:** lógica de jogos, interfaces, design de níveis e objetivos pedagógicos. **Em desenvolvimento.**
 
 ## Trajetória profissional
 
