@@ -23,7 +23,7 @@ Gosto de entender o mecanismo por trás das ferramentas: como um modelo interpre
 
 | Se você quer conhecer… | Comece por |
 | --- | --- |
-| Jogos de lógica, geometria e estratégia com IA no navegador | [Intuição](https://github.com/luigiscofano/intuicao) |
+| Jogos educativos de lógica, geometria e estratégia com IA no navegador | [Intuição](https://github.com/luigiscofano/intuicao) |
 | Uma aplicação visual com webcam e interação por gestos | [GestureLab](https://github.com/luigiscofano/gesturelab) |
 | Pesquisa em linguagem, OCR e qualidade de dados | [IC · Tupi Antigo](https://github.com/luigiscofano/ic-pln-tupi-antigo) |
 | Experimentos matemáticos com código, gráficos e notebooks | [Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos) |
