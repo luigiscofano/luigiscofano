@@ -23,15 +23,26 @@ I enjoy understanding how tools work: how a model interprets an image, how infor
 
 | If you want to explore… | Start with |
 | --- | --- |
+| Browser-based logic, geometry, and strategy games with game AI | [Intuição](https://github.com/luigiscofano/intuicao) |
 | A visual application using a webcam and gestures | [GestureLab](https://github.com/luigiscofano/gesturelab) |
 | Language research, OCR, and data quality | [Old Tupi research](https://github.com/luigiscofano/ic-pln-tupi-antigo) |
+| A web Pokédex with species, forms, evolutions, and game data | [Pokédex](https://github.com/luigiscofano/Pokedex) |
 | Mathematical experiments, plots, and notebooks | [Numerical Methods](https://github.com/luigiscofano/usp-metodos-numericos) |
 | A C game with a separate rules engine and interface | [Tetris in C](https://github.com/luigiscofano/tetris-c) |
 | Circuits, sensors, communication, and FPGA games | [Digital Laboratory I and II](https://github.com/luigiscofano/usp-labdig) |
 | Processors, instructions, and low-level execution | [Digital Systems](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais) and [MVN Assembly](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao) |
-| Algorithms, object-oriented programming, and Java foundations | [MAC0122](https://github.com/luigiscofano/usp-mac0122-algoritmos), [MAC0321](https://github.com/luigiscofano/usp-mac0321-poo), and [Pokédex](https://github.com/luigiscofano/Pokedex) |
+| Algorithms, object-oriented programming, and Java foundations | [MAC0122](https://github.com/luigiscofano/usp-mac0122-algoritmos) and [MAC0321](https://github.com/luigiscofano/usp-mac0321-poo) |
 
 ## Featured projects
+
+### Intuição · Logic, geometry, and strategy games
+
+**[Repository](https://github.com/luigiscofano/intuicao)** · HTML · CSS · JavaScript · Game AI  
+[Play in your browser · public access](https://intuicao-luigi-minigames.luigiscofano.chatgpt.site) · [Game manuals](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md)
+
+An educational platform with **11 browser games: eight solo campaigns, 640 levels, and three Versus games**. My work combines game mechanics, level design, hints, interfaces, and documentation, with Brazilian wildlife-inspired pixel art.
+
+The game AI includes exact search with memoization in DESVIO and minimax with alpha-beta pruning and heuristics in CERCO. The aim is to increase difficulty through the decisions and relationships players discover.
 
 ### GestureLab · Hands, gestures, air writing, and poses
 
@@ -44,6 +55,15 @@ Computer vision application with four independent modes: hand tracking, gesture 
 **[Repository](https://github.com/luigiscofano/ic-pln-tupi-antigo)** · Python · NLP · OCR · Unicode · Jupyter
 
 Research at IME-USP supervised by **Prof. Dr. Marcelo Finger**, focused on digitizing and structuring Old Tupi dictionary data with Unicode preservation and traceable review. Includes auditing tools and a synthetic demonstration. Academic partner **Calebe Rezende** maintains the related [Tupi–Portuguese Dictionary](https://caleberezende.github.io/tradutorestupi/).
+
+### Pokédex · Gotta catch them all!
+
+**[Repository](https://github.com/luigiscofano/Pokedex)** · HTML · CSS · JavaScript · Node.js · PokéAPI data  
+[Explore in your browser · public access](https://pokedex-luigi-explorer.luigiscofano.chatgpt.site) · [User guide](https://github.com/luigiscofano/Pokedex/blob/main/docs/usuario/README.md)
+
+A web application with **1,025 species, 1,351 varieties, and 1,579 cataloged forms**. Features include search and filters, evolutions, types and stats, game-specific descriptions, encounters and moves, Normal/Shiny artwork, and browser-local favorites.
+
+The project combines a responsive interface, versioned data, reproducible imports, tests, and documentation. The original 2023 Java exercise is preserved as an independent module, showing the evolution of my first repository into a browsable application.
 
 ### Numerical Methods · Reproducible mathematical experiments
 
@@ -91,12 +111,6 @@ Studies of gene search, interval union, pair counting, and the Collatz sequence.
 
 Object-oriented exercises covering event scheduling, state transitions, CSV persistence, and multisets. Demonstrations and tests explore object composition, collections, and file handling; the patient simulation uses fictional rules.
 
-### Pokédex in Java · Introductory object models
-
-**[Repository](https://github.com/luigiscofano/Pokedex)** · Java · Classes · Enums · Collections
-
-A terminal demonstration of Pokémon modeling through classes, constructors, enums, and collections. Exercises basic encapsulation and object interactions, with data stored in memory and no external dependencies.
-
 ### MAC0321 · Lista 08, Swing, and design patterns
 
 **[Repository](https://github.com/luigiscofano/MAC0321-Lista08)** · Java · Swing · JUnit · Adapter
@@ -109,6 +123,8 @@ Each repository explains **its problem, modules, setup, first execution, expecte
 
 | Family | Typical preparation | First step |
 | --- | --- | --- |
+| Intuição | Browser for the public demo; Python 3 to serve `dist/` locally | Open the site or follow the repository's local setup guide. |
+| Pokédex web | Browser for the public demo; Node.js 20+ with npm for local use | Open the site or run `npm run dev`; Java is an independent optional module. |
 | GestureLab | Python 3.12, virtual environment, dependencies, models, camera/graphical environment | Start `hands`, then try the other modes. |
 | Old Tupi and Numerical Methods | Python 3.12, dependencies, and a notebook kernel | Run the TSV demo or execute/export notebooks. |
 | Tetris | C11 compiler, GNU Make, and ANSI terminal | Run `make demo` for a replay, then play interactively. |
@@ -137,7 +153,7 @@ The expression should return `status: 0` and `resultado: 15`; its trace is saved
 | **Scientific computing** | NumPy, SciPy, Matplotlib, Jupyter | Numerical implementations, plots, convergence, and reproducible experiments. |
 | **Data and BI** | SQL/MySQL, Excel, Power BI, Power Query, DAX | Data preparation, modeling, metrics, and dashboards. |
 | **Hardware and architecture** | Verilog, SystemVerilog, FSMs, datapaths, UART, PWM, RISC-V, MVN Assembly | Circuits, communication, simulation, and instruction execution. |
-| **Web and computer graphics** | Three.js, TypeScript, Vite | Virtual museum, 3D navigation, and educational browser experiences. |
+| **Web and computer graphics** | HTML, CSS, JavaScript, Node.js, Three.js, TypeScript, Vite | Pokédex, Intuição, virtual museum, 3D navigation, and interactive browser experiences. |
 | **Quality and collaboration** | Git, GitHub, testing, pytest, unittest, JUnit, Ruff, GitHub Actions | Project-specific verification, documentation, and change history. |
 | **Foundations** | Algorithms, data structures, OOP, operating systems, networks | Computer Engineering coursework and applied studies. |
 
@@ -152,14 +168,6 @@ Alongside [Old Tupi research](#old-tupi-research--ocr-and-linguistic-data), I wo
 I contribute to an **interactive museum about the history of computing**, with a browser-based 3D environment. The project uses **Three.js, TypeScript, and Vite** and involves navigation, object interaction, and educational content.
 
 **Topics:** web development, computer graphics, 3D environments, and learning.
-
-### Intuição · Logic games and learning
-
-I am developing a puzzle platform with accessible rules, progressive difficulty, and room for experimentation. My work covers mechanics, level design, hints, and user experience.
-
-The design principle is to increase difficulty through the **decisions and relationships players need to discover**, encouraging logical reasoning and independent learning.
-
-**Topics:** game logic, interfaces, level design, and educational objectives. **In development.**
 
 ## Professional experience
 
