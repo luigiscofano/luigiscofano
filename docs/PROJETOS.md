@@ -1,6 +1,6 @@
 # Índice dos projetos
 
-Mapa dos **11 projetos públicos** do portfólio, além do repositório de apresentação. Revisão baseada nos READMEs e arquivos das branches padrão consultados em **31 de outubro de 2026**. Os links abaixo acompanham as versões atuais; requisitos, limites e resultados detalhados ficam no README de cada projeto.
+Mapa dos **12 projetos públicos** do portfólio, além do repositório de apresentação. Intuição, Pokédex e seus acessos públicos foram atualizados neste índice em **3 de novembro de 2026**; as demais descrições mantêm a revisão de 31 de outubro. Os links abaixo acompanham as versões atuais; requisitos, limites e resultados detalhados ficam no README de cada projeto.
 
 [Perfil em português](../README.md) · [English profile](../README.en.md) · [Padrão de documentação](PADRAO_README.md)
 
@@ -8,6 +8,8 @@ Mapa dos **11 projetos públicos** do portfólio, além do repositório de apres
 
 | Projeto | Conteúdo disponível | Caminho para explorar |
 | --- | --- | --- |
+| [Intuição](https://github.com/luigiscofano/intuicao) | 11 jogos de lógica, geometria e estratégia, com 640 fases solo e três jogos Versus; IA em DESVIO e CERCO. | [Jogar no navegador](https://intuicao-luigi-minigames.luigiscofano.chatgpt.site) e [manuais](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md). |
+| [Pokédex](https://github.com/luigiscofano/Pokedex) | Aplicação web com 1.025 espécies, formas alternativas, shiny, evoluções, tipos e dados por jogo. O exercício Java original permanece independente. | [Explorar no navegador](https://pokedex-luigi-explorer.luigiscofano.chatgpt.site), [guia de uso](https://github.com/luigiscofano/Pokedex/blob/main/docs/usuario/README.md) e [Java original](https://github.com/luigiscofano/Pokedex/blob/main/src/README.md). |
 | [GestureLab](https://github.com/luigiscofano/gesturelab) | Quatro modos independentes: mãos, gestos, escrita no ar e comparação corporal com catálogo local. Python, OpenCV e MediaPipe. | [Instalação](https://github.com/luigiscofano/gesturelab/blob/main/docs/INSTALACAO.md), [uso](https://github.com/luigiscofano/gesturelab/blob/main/docs/USO.md) e [validação](https://github.com/luigiscofano/gesturelab/blob/main/docs/VALIDACAO.md). |
 | [IC · Tupi Antigo](https://github.com/luigiscofano/ic-pln-tupi-antigo) | Importação TSV, preservação da fonte, NFC, auditoria, exportação, métricas de erro e OCR opcional. Demonstração sintética, Colab e metodologia. | [Notebooks](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/notebooks/README.md), [metodologia](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/docs/METODOLOGIA.md) e [validação](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/docs/VALIDACAO.md). |
 | [Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos) | Sete roteiros: Python, Newton/fractais, ponto flutuante/PLU, DFT/FFT, interpolação, EDO/Chua e GPS sintético. Biblioteca, figuras e testes. | [Catálogo](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/notebooks/README.md), [biblioteca](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/numericos/README.md) e [validação](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/docs/VALIDACAO.md). |
@@ -27,7 +29,6 @@ Mapa dos **11 projetos públicos** do portfólio, além do repositório de apres
 | --- | --- | --- |
 | [MAC0122 · Algoritmos](https://github.com/luigiscofano/usp-mac0122-algoritmos) | Genes, intervalos e contagem de pares em Java; extensão independente Collatz em C11. Contratos, complexidade, exemplos e testes. | [Guias](https://github.com/luigiscofano/usp-mac0122-algoritmos/blob/main/docs/topicos/README.md), [Collatz](https://github.com/luigiscofano/usp-mac0122-algoritmos/blob/main/src/collatz/README.md) e [validação](https://github.com/luigiscofano/usp-mac0122-algoritmos/blob/main/docs/VALIDACAO.md). |
 | [MAC0321 · POO](https://github.com/luigiscofano/usp-mac0321-poo) | Agenda de eventos e simulação fictícia; estudos separados de State/CSV e multiconjuntos. Acervo histórico fora da suíte nova. | [Documentação](https://github.com/luigiscofano/usp-mac0321-poo/blob/main/docs/README.md), [acervo](https://github.com/luigiscofano/usp-mac0321-poo/blob/main/acervo/README.md) e [validação](https://github.com/luigiscofano/usp-mac0321-poo/blob/main/docs/VALIDACAO.md). |
-| [Pokédex em Java](https://github.com/luigiscofano/Pokedex) | Uma demonstração de classes, tipos, construtores, cópia, dano e lista em memória. Sem API ou persistência. | [Mapa das classes](https://github.com/luigiscofano/Pokedex/blob/main/src/README.md) e [Main.java](https://github.com/luigiscofano/Pokedex/blob/main/src/Main.java). |
 | [MAC0321 · Lista 08](https://github.com/luigiscofano/MAC0321-Lista08) | Fatorial Swing, JUnit, wrappers de coleções, Adapter e strings. Exercícios em coautoria com Hugo Spadete Arrivabene. | [Índice dos exercícios](https://github.com/luigiscofano/MAC0321-Lista08/blob/master/src/README.md); a branch padrão deste repositório é `master`. |
 
 ## Primeira execução
@@ -36,6 +37,7 @@ Execute os comandos **na raiz do respectivo repositório, depois de seguir sua i
 
 | Projeto | Requisitos principais | Comando inicial após a preparação |
 | --- | --- | --- |
+| Intuição | Navegador; Python 3 para execução local | Abrir o site público ou seguir o guia de execução local de `dist/`. |
 | GestureLab | Python 3.12, dependências, modelos e webcam/GUI | `python app.py --mode hands --show-indices` |
 | IC · Tupi Antigo | Python 3.12 e dependências | `python scripts/processar.py data/demo.tsv --saida build` |
 | Métodos Numéricos | Python 3.12, dependências e kernel `python3` | `python scripts/executar_notebooks.py` |
@@ -45,7 +47,8 @@ Execute os comandos **na raiz do respectivo repositório, depois de seguir sua i
 | PCS3616 | Python 3.12, biblioteca padrão | `python scripts/executar.py "12 3 +" --trace` |
 | MAC0122 | JDK 17+, Python 3.12; C11 para Collatz | `python scripts/verificar.py`; para C, `python scripts/verificar_collatz.py` |
 | MAC0321 | JDK 17+ e Python 3.12 | `python scripts/verificar.py` e depois `java -cp build/classes poo.simulacao.Simulador` |
-| Pokédex | JDK 17+ | `javac -encoding UTF-8 -d build/classes -sourcepath src src/Main.java` e depois `java -cp build/classes Main` |
+| Pokédex web | Node.js 20+ com npm | `npm run dev`; a demonstração pública exige apenas navegador. |
+| Pokédex · Java original | JDK 17+ | `javac -encoding UTF-8 -d build/classes -sourcepath src src/Main.java` e depois `java -cp build/classes Main` |
 | Lista 08 | JDK 17+, GUI para Swing; JUnit 4.13+ para testes | Siga o exemplo de `FactorialView` no README; cada exercício possui seu ponto de entrada. |
 
 ## Como interpretar o estado dos projetos
@@ -56,7 +59,7 @@ Execute os comandos **na raiz do respectivo repositório, depois de seguir sua i
 - **Teste ou simulação:** demonstra os casos exercitados. Uso com webcam, validação linguística e funcionamento em FPGA têm verificações próprias.
 - **Evolução proposta:** aparece como objetivo futuro, sem ser contabilizada como funcionalidade entregue.
 
-Intuição e o museu virtual do LASSu-USP são apresentados na seção de pesquisa e desenvolvimento do perfil. Este índice reúne os repositórios públicos disponíveis para navegação no GitHub.
+O museu virtual do LASSu-USP é apresentado na seção de pesquisa e desenvolvimento do perfil. Este índice reúne os repositórios públicos disponíveis para navegação no GitHub.
 
 [Voltar ao perfil](../README.md) · [Padrão dos READMEs](PADRAO_README.md) · [Verificar links internos](../scripts/README.md)
 

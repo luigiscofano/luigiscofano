@@ -26,18 +26,19 @@ Gosto de entender o mecanismo por trás das ferramentas: como um modelo interpre
 | Jogos educativos de lógica, geometria e estratégia com IA no navegador | [Intuição](https://github.com/luigiscofano/intuicao) |
 | Uma aplicação visual com webcam e interação por gestos | [GestureLab](https://github.com/luigiscofano/gesturelab) |
 | Pesquisa em linguagem, OCR e qualidade de dados | [IC · Tupi Antigo](https://github.com/luigiscofano/ic-pln-tupi-antigo) |
+| Uma Pokédex web com espécies, formas, evoluções e dados dos jogos | [Pokédex](https://github.com/luigiscofano/Pokedex) |
 | Experimentos matemáticos com código, gráficos e notebooks | [Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos) |
 | Um jogo em C com motor separado da interface | [Tetris em C](https://github.com/luigiscofano/tetris-c) |
 | Circuitos, sensores, comunicação e jogos em FPGA | [Laboratório Digital I e II](https://github.com/luigiscofano/usp-labdig) |
 | Processadores, instruções e execução em baixo nível | [Sistemas Digitais](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais) e [Assembly MVN](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao) |
-| Algoritmos, orientação a objetos e fundamentos de Java | [MAC0122](https://github.com/luigiscofano/usp-mac0122-algoritmos), [MAC0321](https://github.com/luigiscofano/usp-mac0321-poo) e [Pokédex](https://github.com/luigiscofano/Pokedex) |
+| Algoritmos, orientação a objetos e fundamentos de Java | [MAC0122](https://github.com/luigiscofano/usp-mac0122-algoritmos) e [MAC0321](https://github.com/luigiscofano/usp-mac0321-poo) |
 
 ## Projetos em destaque
 
 ### Intuição · Jogos de lógica, geometria e estratégia
 
 **[Abrir repositório](https://github.com/luigiscofano/intuicao)** · HTML · CSS · JavaScript · IA para jogos  
-[Abrir o site (acesso controlado)](https://intuicao-luigi-minigames.luigiscofano.chatgpt.site) · [Manuais dos jogos](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md) · [Quadro de desenvolvimento](https://github.com/users/luigiscofano/projects/1)
+[Jogar no navegador · acesso público](https://intuicao-luigi-minigames.luigiscofano.chatgpt.site) · [Manuais dos jogos](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md) · [Quadro de desenvolvimento](https://github.com/users/luigiscofano/projects/1)
 
 Desenvolvo uma plataforma educativa com **11 jogos no navegador: oito campanhas solo, 640 fases e três jogos Versus**. Os desafios exploram lógica, geometria e estratégia, com regras acessíveis, dificuldade progressiva e identidade visual inspirada em animais brasileiros em pixel art. Meu trabalho reúne mecânicas, construção de fases, dicas, interfaces e documentação.
 
@@ -60,6 +61,17 @@ Visão computacional com webcam para rastrear mãos, reconhecer gestos, desenhar
 Iniciação científica no **IME-USP**, orientada pelo **Prof. Dr. Marcelo Finger**, sobre digitalização e organização de dados de Tupi Antigo. Inclui ferramentas de OCR, normalização Unicode, auditoria e revisão, com demonstração em dados fictícios.
 
 **Parceria acadêmica:** [Dicionário Tupi-Português](https://caleberezende.github.io/tradutorestupi/), projeto de **Calebe Rezende**, com créditos e contexto na documentação da IC.
+
+---
+
+### Pokédex · Temos que pegar!
+
+**[Abrir repositório](https://github.com/luigiscofano/Pokedex)** · HTML · CSS · JavaScript · Node.js · Dados da PokéAPI  
+[Explorar no navegador · acesso público](https://pokedex-luigi-explorer.luigiscofano.chatgpt.site) · [Guia de uso](https://github.com/luigiscofano/Pokedex/blob/main/docs/usuario/README.md)
+
+Aplicação web com **1.025 espécies, 1.351 variedades e 1.579 formas catalogadas**. Permite pesquisar e filtrar o catálogo, explorar evoluções, consultar tipos, atributos, descrições, encontros e golpes por jogo, alternar Normal/Shiny e salvar favoritos no navegador.
+
+O projeto reúne interface responsiva, dados versionados, importação reproduzível, testes e documentação. Preserva também o exercício Java original de 2023 em um módulo independente, mostrando a evolução do primeiro repositório para uma aplicação navegável.
 
 ---
 
@@ -119,14 +131,6 @@ Exercícios de orientação a objetos com simulação de eventos, transições d
 
 ---
 
-### Pokédex em Java · Primeiros modelos orientados a objetos
-
-**[Abrir repositório](https://github.com/luigiscofano/Pokedex)** · Java · Classes · Enumerações · Coleções
-
-Aplicação de terminal para praticar modelagem de Pokémon e treinadores, encapsulamento, enumerações e coleções. Os dados ficam em memória, em uma demonstração sem dependências externas.
-
----
-
 ### MAC0321 · Lista 08, Swing e padrões de projeto
 
 **[Abrir repositório](https://github.com/luigiscofano/MAC0321-Lista08)** · Java · Swing · JUnit · Adapter
@@ -140,6 +144,7 @@ Cada repositório explica **o problema, os módulos, a instalação, uma primeir
 | Família | Preparação típica | Primeiro caminho |
 | --- | --- | --- |
 | Intuição | Navegador e Python 3 para servir os arquivos de `dist/` por HTTP | Seguir o [guia de execução local](https://github.com/luigiscofano/intuicao#executar-no-computador), escolher um jogo e explorar as regras. |
+| Pokédex web | Navegador para a demonstração pública; Node.js 20+ com npm para execução local | Abrir o site ou executar `npm run dev`; Java é um módulo opcional independente. |
 | GestureLab | Python 3.12, ambiente virtual, dependências, modelos e câmera/ambiente gráfico | Iniciar `hands`; depois experimentar os outros modos. |
 | Tupi Antigo e Métodos Numéricos | Python 3.12, dependências e kernel para notebooks | Rodar a demonstração TSV ou executar/exportar os roteiros. |
 | Tetris | Compilador C11, GNU Make e terminal ANSI | `make demo` para replay; modo interativo para jogar. |
@@ -169,7 +174,7 @@ A expressão deve devolver `status: 0` e `resultado: 15`; o rastreamento fica em
 | **Computação científica** | NumPy, SciPy, Matplotlib e Jupyter | Implementação de métodos, gráficos, convergência e experimentos reproduzíveis. |
 | **Dados e BI** | SQL/MySQL, Excel, Power BI, Power Query e DAX | Preparação de bases, modelagem, indicadores e dashboards. |
 | **Hardware e arquitetura** | Verilog, SystemVerilog, FSM, datapath, UART, PWM, RISC-V e Assembly MVN | Circuitos, comunicação, simuladores e execução de instruções. |
-| **Web e computação gráfica** | Three.js, TypeScript e Vite | Museu virtual, navegação 3D e experiências educativas no navegador. |
+| **Web e computação gráfica** | HTML, CSS, JavaScript, Node.js, Three.js, TypeScript e Vite | Pokédex, Intuição, museu virtual, navegação 3D e experiências interativas no navegador. |
 | **Qualidade e colaboração** | Git, GitHub, testes, pytest, unittest, JUnit, Ruff e GitHub Actions | Verificações adequadas a cada projeto, documentação e histórico de mudanças. |
 | **Fundamentos** | Algoritmos, estruturas de dados, orientação a objetos, sistemas operacionais e redes | Formação em Engenharia de Computação e estudos aplicados. |
 
