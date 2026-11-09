@@ -4,7 +4,7 @@
 
 Construo aplicações e experimentos para entender como a computação resolve problemas: da interpretação de imagens e documentos à organização de dados, simulação de circuitos e criação de jogos.
 
-[LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en) · [E-mail](mailto:luigiscofano.dev@gmail.com) · [English version](README.en.md) · [Todos os repositórios](https://github.com/luigiscofano?tab=repositories)
+[Portfólio](https://luigi-scofano-portfolio.luigiscofano.chatgpt.site/) · [LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en) · [E-mail](mailto:luigiscofano.dev@gmail.com) · [English version](README.en.md) · [Todos os repositórios](https://github.com/luigiscofano?tab=repositories)
 
 [Sobre mim](#sobre-mim) · [Destaques](#projetos-em-destaque) · [Hardware e sistemas](#sistemas-digitais-e-arquitetura) · [Algoritmos e Java](#algoritmos-e-orientação-a-objetos) · [Como executar](#como-explorar-e-executar) · [Competências](#competências) · [Trajetória](#trajetória-profissional)
 
