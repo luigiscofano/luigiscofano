@@ -26,7 +26,7 @@ I enjoy understanding how tools work: how a model interprets an image, how infor
 - **Engineering and systems:** LabDig, Digital Systems, and MVN Assembly.
 - **Learning and experiments:** Numerical Methods, Tetris in C, Algorithms, and Object-Oriented Programming.
 
-The six starting points are **Intuição, Trilha Viva, GestureLab, Old Tupi research, Numerical Methods, and LabDig**. Other projects remain in the index below.
+The seven starting points are **Intuição, Trilha Viva, GestureLab, Old Tupi research, Numerical Methods, LabDig, and Pokédex**. Other projects remain in the index below.
 
 ### Where to start
 
