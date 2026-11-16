@@ -30,7 +30,7 @@ Gosto de entender o mecanismo por trás das ferramentas: como um modelo interpre
 
 O [índice completo](docs/PROJETOS.md) preserva os demais projetos, contextos acadêmicos e instruções de execução. Um projeto pode combinar mais de uma área.
 
-### Seis projetos para começar
+### Sete projetos para começar
 
 | Projeto | Problema e solução | Tecnologias | Explorar |
 | --- | --- | --- | --- |
@@ -40,6 +40,7 @@ O [índice completo](docs/PROJETOS.md) preserva os demais projetos, contextos ac
 | **IC · Tupi Antigo** | Digitalizar e auditar dados linguísticos preservando a fonte. | Python, OCR, Unicode, Jupyter | [Código e exemplo sintético](https://github.com/luigiscofano/ic-pln-tupi-antigo) |
 | **Métodos Numéricos** | Investigar precisão, convergência e estabilidade com experimentos reproduzíveis. | Python, NumPy, SciPy, Matplotlib | [Notebooks e código](https://github.com/luigiscofano/usp-metodos-numericos) |
 | **LabDig** | Investigar circuitos, sensores e jogos em projetos acadêmicos de hardware. | Verilog, Icarus Verilog, Processing | [Código, relatórios e simulações](https://github.com/luigiscofano/usp-labdig) |
+| **Pokédex** | Explorar Pokémon, formas e evoluções com busca, filtros e favoritos locais. | HTML, CSS, JavaScript, Node.js, dados da PokéAPI | [Explorar](https://pokedex-luigi-explorer.luigiscofano.chatgpt.site) · [Código](https://github.com/luigiscofano/Pokedex) |
 
 ## Projetos em destaque
 
