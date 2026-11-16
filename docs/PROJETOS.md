@@ -1,21 +1,32 @@
 # Índice dos projetos
 
-Mapa dos **12 projetos públicos** do portfólio, além do repositório de apresentação. Intuição, Pokédex e seus acessos públicos foram atualizados neste índice em **3 de novembro de 2026**; as demais descrições mantêm a revisão de 31 de outubro. Os links abaixo acompanham as versões atuais; requisitos, limites e resultados detalhados ficam no README de cada projeto.
+Índice temático dos projetos selecionados do portfólio. Intuição e Trilha Viva foram atualizados em **16 de novembro de 2026**. Os links apontam para os repositórios originais, sem mudança de nomes ou histórico; requisitos, limites e evidências detalhadas ficam no README de cada projeto.
 
 [Perfil em português](../README.md) · [English profile](../README.en.md) · [Padrão de documentação](PADRAO_README.md)
 
-## Aplicações, pesquisa e computação científica
+## IA e dados
 
 | Projeto | Conteúdo disponível | Caminho para explorar |
 | --- | --- | --- |
-| [Intuição](https://github.com/luigiscofano/intuicao) | 11 jogos de lógica, geometria e estratégia, com 640 fases solo e três jogos Versus; IA em DESVIO e CERCO. | [Jogar no navegador](https://intuicao-luigi-minigames.luigiscofano.chatgpt.site) e [manuais](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md). |
-| [Pokédex](https://github.com/luigiscofano/Pokedex) | Aplicação web com 1.025 espécies, formas alternativas, shiny, evoluções, tipos e dados por jogo. O exercício Java original permanece independente. | [Explorar no navegador](https://pokedex-luigi-explorer.luigiscofano.chatgpt.site), [guia de uso](https://github.com/luigiscofano/Pokedex/blob/main/docs/usuario/README.md) e [Java original](https://github.com/luigiscofano/Pokedex/blob/main/src/README.md). |
 | [GestureLab](https://github.com/luigiscofano/gesturelab) | Quatro modos independentes: mãos, gestos, escrita no ar e comparação corporal com catálogo local. Python, OpenCV e MediaPipe. | [Instalação](https://github.com/luigiscofano/gesturelab/blob/main/docs/INSTALACAO.md), [uso](https://github.com/luigiscofano/gesturelab/blob/main/docs/USO.md) e [validação](https://github.com/luigiscofano/gesturelab/blob/main/docs/VALIDACAO.md). |
 | [IC · Tupi Antigo](https://github.com/luigiscofano/ic-pln-tupi-antigo) | Importação TSV, preservação da fonte, NFC, auditoria, exportação, métricas de erro e OCR opcional. Demonstração sintética, Colab e metodologia. | [Notebooks](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/notebooks/README.md), [metodologia](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/docs/METODOLOGIA.md) e [validação](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/docs/VALIDACAO.md). |
+
+## Produtos web
+
+| Projeto | Conteúdo disponível | Caminho para explorar |
+| --- | --- | --- |
+| [Intuição](https://github.com/luigiscofano/intuicao) | 19 jogos nas categorias Intuição, Raciocínio Lógico e Versus; azulejos, mascotes e ilustrações com identidade brasileira. | [Jogar no navegador](https://intuicao-luigi-minigames.luigiscofano.chatgpt.site) e [manuais](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md). |
+| [Pokédex](https://github.com/luigiscofano/Pokedex) | Aplicação web com 1.025 espécies, formas alternativas, shiny, evoluções, tipos e dados por jogo. O exercício Java original permanece independente. | [Explorar no navegador](https://pokedex-luigi-explorer.luigiscofano.chatgpt.site), [guia de uso](https://github.com/luigiscofano/Pokedex/blob/main/docs/usuario/README.md) e [Java original](https://github.com/luigiscofano/Pokedex/blob/main/src/README.md). |
+| [Trilha Viva](https://github.com/luigiscofano/trilha-viva) | Materiais, PDF/OCR local, referências, revisão, plano, histórico e backup. IA, automações, contas e sincronização não estão ativas na demonstração. | [Aplicação](https://luigiscofano.github.io/trilha-viva/) e [documentação](https://github.com/luigiscofano/trilha-viva/blob/main/docs/README.md). |
+
+## Formação e experimentos
+
+| Projeto | Conteúdo disponível | Caminho para explorar |
+| --- | --- | --- |
 | [Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos) | Sete roteiros: Python, Newton/fractais, ponto flutuante/PLU, DFT/FFT, interpolação, EDO/Chua e GPS sintético. Biblioteca, figuras e testes. | [Catálogo](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/notebooks/README.md), [biblioteca](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/numericos/README.md) e [validação](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/docs/VALIDACAO.md). |
 | [Tetris em C](https://github.com/luigiscofano/tetris-c) | Motor C11, terminal, sete peças, pontuação, níveis, pausa e replay com seed. Nova implementação de portfólio com procedência documentada. | [Instalação](https://github.com/luigiscofano/tetris-c/blob/main/docs/INSTALACAO.md), [replays](https://github.com/luigiscofano/tetris-c/blob/main/examples/README.md) e [validação](https://github.com/luigiscofano/tetris-c/blob/main/docs/VALIDACAO.md). |
 
-## Hardware e sistemas
+## Engenharia e sistemas
 
 | Projeto | Partes e relação entre elas | Caminho para explorar |
 | --- | --- | --- |
@@ -38,6 +49,7 @@ Execute os comandos **na raiz do respectivo repositório, depois de seguir sua i
 | Projeto | Requisitos principais | Comando inicial após a preparação |
 | --- | --- | --- |
 | Intuição | Navegador; Python 3 para execução local | Abrir o site público ou seguir o guia de execução local de `dist/`. |
+| Trilha Viva | Node.js 22.13+ para desenvolvimento; navegador para a demonstração | `npm ci` e `npm run dev`; serviços externos e contas são etapas separadas. |
 | GestureLab | Python 3.12, dependências, modelos e webcam/GUI | `python app.py --mode hands --show-indices` |
 | IC · Tupi Antigo | Python 3.12 e dependências | `python scripts/processar.py data/demo.tsv --saida build` |
 | Métodos Numéricos | Python 3.12, dependências e kernel `python3` | `python scripts/executar_notebooks.py` |
