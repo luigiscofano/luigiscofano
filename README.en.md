@@ -1,8 +1,8 @@
 # Luigi Scofano de Araujo
 
-**Computer Engineering at Poli-USP · Software development · Artificial intelligence · Data**
+**Computer Engineering at Poli-USP · Applied AI · Data · Software engineering**
 
-I build applications and experiments to understand how computing solves problems: interpreting images and documents, organizing data, simulating circuits, and creating games.
+I build web products and experiments in applied AI, data, and computing, turning concrete problems into verifiable solutions with readable code, tests, and documentation.
 
 [Português](README.md) · [LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en) · [Email](mailto:luigiscofano.dev@gmail.com) · [All repositories](https://github.com/luigiscofano?tab=repositories)
 
@@ -19,11 +19,21 @@ I enjoy understanding how tools work: how a model interprets an image, how infor
 - **Currently learning:** Python, machine learning, and generative AI through an IBM learning program.
 - **Beyond code:** I teach Brazilian jiu-jitsu and previously helped manage the sport at Poli-USP's athletics association.
 
+### Explore by area
+
+- **AI and data:** GestureLab, Old Tupi research, and Trilha Viva (optional AI, not yet connected).
+- **Web products:** Intuição, Trilha Viva, Pokédex, and the [portfolio](https://luigiscofano.github.io/portfolio/).
+- **Engineering and systems:** LabDig, Digital Systems, and MVN Assembly.
+- **Learning and experiments:** Numerical Methods, Tetris in C, Algorithms, and Object-Oriented Programming.
+
+The six starting points are **Intuição, Trilha Viva, GestureLab, Old Tupi research, Numerical Methods, and LabDig**. Other projects remain in the index below.
+
 ### Where to start
 
 | If you want to explore… | Start with |
 | --- | --- |
 | Browser-based logic, geometry, and strategy games with game AI | [Intuição](https://github.com/luigiscofano/intuicao) |
+| Study materials, source review, and planning with local data | [Trilha Viva](https://github.com/luigiscofano/trilha-viva) |
 | A visual application using a webcam and gestures | [GestureLab](https://github.com/luigiscofano/gesturelab) |
 | Language research, OCR, and data quality | [Old Tupi research](https://github.com/luigiscofano/ic-pln-tupi-antigo) |
 | A web Pokédex with species, forms, evolutions, and game data | [Pokédex](https://github.com/luigiscofano/Pokedex) |
@@ -40,9 +50,18 @@ I enjoy understanding how tools work: how a model interprets an image, how infor
 **[Repository](https://github.com/luigiscofano/intuicao)** · HTML · CSS · JavaScript · Game AI  
 [Play in your browser · public access](https://intuicao-luigi-minigames.luigiscofano.chatgpt.site) · [Game manuals](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md)
 
-An educational platform with **11 browser games: eight solo campaigns, 640 levels, and three Versus games**. My work combines game mechanics, level design, hints, interfaces, and documentation, with Brazilian wildlife-inspired pixel art.
+An educational platform with **19 browser games organized into Intuição, Logical Reasoning, and Versus**. My work combines game mechanics, level design, hints, interfaces, and documentation, with a Brazilian visual identity built around tiles, mascots, original illustrations, and a green, yellow, and blue palette.
 
 The game AI includes exact search with memoization in DESVIO and minimax with alpha-beta pruning and heuristics in CERCO. The aim is to increase difficulty through the decisions and relationships players discover.
+
+### Trilha Viva · Study materials, sources, and review
+
+**[Repository](https://github.com/luigiscofano/trilha-viva)** · JavaScript · HTML · CSS · Node.js · PDF.js · Tesseract.js  
+[Open the application](https://luigiscofano.github.io/trilha-viva/) · [Documentation](https://github.com/luigiscofano/trilha-viva/blob/main/docs/README.md)
+
+A study platform for texts and PDFs, source references, human review, task planning, and history. Includes optional local OCR and backup export/import.
+
+**Current status:** data stays in the browser. The optional AI backend and contracts are available, but no provider is active in the public demo. Supabase accounts and synchronization are not active; n8n, Make, and Zapier have documented integration points, not operational connections. Demonstration content is distinguished from actual AI output, and source checking remains a human responsibility.
 
 ### GestureLab · Hands, gestures, air writing, and poses
 
