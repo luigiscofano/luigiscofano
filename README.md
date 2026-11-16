@@ -1,8 +1,8 @@
 # Luigi Scofano de Araujo
 
-**Engenharia de Computação na Poli-USP · Desenvolvimento de software · Inteligência artificial · Dados**
+**Engenharia de Computação na Poli-USP · IA aplicada · Dados · Engenharia de software**
 
-Construo aplicações e experimentos para entender como a computação resolve problemas: da interpretação de imagens e documentos à organização de dados, simulação de circuitos e criação de jogos.
+Desenvolvo produtos web e experimentos de IA aplicada, dados e computação. Meu foco é transformar problemas concretos em soluções verificáveis, com código claro, testes e documentação.
 
 [Portfólio](https://luigiscofano.github.io/portfolio/) · [LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en) · [E-mail](mailto:luigiscofano.dev@gmail.com) · [English version](README.en.md) · [Todos os repositórios](https://github.com/luigiscofano?tab=repositories)
 
@@ -19,19 +19,27 @@ Gosto de entender o mecanismo por trás das ferramentas: como um modelo interpre
 - **Aprendizado atual:** Python, machine learning e IA generativa, com formação IBM em andamento.
 - **Além do código:** sou professor de jiu-jítsu e já atuei na gestão da modalidade na Atlética da Poli-USP.
 
-### Por onde começar
+### Explore por área
 
-| Se você quer conhecer… | Comece por |
+| Área | Projetos |
 | --- | --- |
-| Jogos educativos de lógica, geometria e estratégia com IA no navegador | [Intuição](https://github.com/luigiscofano/intuicao) |
-| Uma aplicação visual com webcam e interação por gestos | [GestureLab](https://github.com/luigiscofano/gesturelab) |
-| Pesquisa em linguagem, OCR e qualidade de dados | [IC · Tupi Antigo](https://github.com/luigiscofano/ic-pln-tupi-antigo) |
-| Uma Pokédex web com espécies, formas, evoluções e dados dos jogos | [Pokédex](https://github.com/luigiscofano/Pokedex) |
-| Experimentos matemáticos com código, gráficos e notebooks | [Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos) |
-| Um jogo em C com motor separado da interface | [Tetris em C](https://github.com/luigiscofano/tetris-c) |
-| Circuitos, sensores, comunicação e jogos em FPGA | [Laboratório Digital I e II](https://github.com/luigiscofano/usp-labdig) |
-| Processadores, instruções e execução em baixo nível | [Sistemas Digitais](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais) e [Assembly MVN](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao) |
-| Algoritmos, orientação a objetos e fundamentos de Java | [MAC0122](https://github.com/luigiscofano/usp-mac0122-algoritmos) e [MAC0321](https://github.com/luigiscofano/usp-mac0321-poo) |
+| **IA e dados** | [GestureLab](https://github.com/luigiscofano/gesturelab), [IC · Tupi Antigo](https://github.com/luigiscofano/ic-pln-tupi-antigo) e [Trilha Viva](https://github.com/luigiscofano/trilha-viva) (IA opcional, ainda não conectada). |
+| **Produtos web** | [Intuição](https://github.com/luigiscofano/intuicao), [Trilha Viva](https://github.com/luigiscofano/trilha-viva), [Pokédex](https://github.com/luigiscofano/Pokedex) e [portfólio](https://luigiscofano.github.io/portfolio/). |
+| **Engenharia e sistemas** | [LabDig](https://github.com/luigiscofano/usp-labdig), [Sistemas Digitais](https://github.com/luigiscofano/usp-pcs3225-sistemas-digitais) e [Assembly MVN](https://github.com/luigiscofano/usp-pcs3616-sistemas-programacao). |
+| **Formação e experimentos** | [Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos), [Tetris em C](https://github.com/luigiscofano/tetris-c), [Algoritmos](https://github.com/luigiscofano/usp-mac0122-algoritmos) e [POO](https://github.com/luigiscofano/usp-mac0321-poo). |
+
+O [índice completo](docs/PROJETOS.md) preserva os demais projetos, contextos acadêmicos e instruções de execução. Um projeto pode combinar mais de uma área.
+
+### Seis projetos para começar
+
+| Projeto | Problema e solução | Tecnologias | Explorar |
+| --- | --- | --- | --- |
+| **Intuição** | Exercitar raciocínio em 19 jogos com identidade brasileira e regras progressivas. | JavaScript, HTML, CSS, busca de estados | [Jogar](https://intuicao-luigi-minigames.luigiscofano.chatgpt.site) · [Código](https://github.com/luigiscofano/intuicao) |
+| **Trilha Viva** | Organizar materiais, conferir fontes e planejar revisões; IA e contas ainda dependem de configuração/implementação. | JavaScript, PDF.js, Tesseract.js, Node.js | [Usar](https://luigiscofano.github.io/trilha-viva/) · [Código](https://github.com/luigiscofano/trilha-viva) |
+| **GestureLab** | Explorar interação por mãos e poses usando modelos pré-treinados. | Python, OpenCV, MediaPipe | [Código e demonstrações](https://github.com/luigiscofano/gesturelab) |
+| **IC · Tupi Antigo** | Digitalizar e auditar dados linguísticos preservando a fonte. | Python, OCR, Unicode, Jupyter | [Código e exemplo sintético](https://github.com/luigiscofano/ic-pln-tupi-antigo) |
+| **Métodos Numéricos** | Investigar precisão, convergência e estabilidade com experimentos reproduzíveis. | Python, NumPy, SciPy, Matplotlib | [Notebooks e código](https://github.com/luigiscofano/usp-metodos-numericos) |
+| **LabDig** | Investigar circuitos, sensores e jogos em projetos acadêmicos de hardware. | Verilog, Icarus Verilog, Processing | [Código, relatórios e simulações](https://github.com/luigiscofano/usp-labdig) |
 
 ## Projetos em destaque
 
@@ -40,9 +48,20 @@ Gosto de entender o mecanismo por trás das ferramentas: como um modelo interpre
 **[Abrir repositório](https://github.com/luigiscofano/intuicao)** · HTML · CSS · JavaScript · IA para jogos  
 [Jogar no navegador · acesso público](https://intuicao-luigi-minigames.luigiscofano.chatgpt.site) · [Manuais dos jogos](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md) · [Quadro de desenvolvimento](https://github.com/users/luigiscofano/projects/1)
 
-Desenvolvo uma plataforma educativa com **11 jogos no navegador: oito campanhas solo, 640 fases e três jogos Versus**. Os desafios exploram lógica, geometria e estratégia, com regras acessíveis, dificuldade progressiva e identidade visual inspirada em animais brasileiros em pixel art. Meu trabalho reúne mecânicas, construção de fases, dicas, interfaces e documentação.
+Desenvolvo uma plataforma educativa com **19 jogos no navegador, organizados em Intuição, Raciocínio Lógico e Versus**. Os desafios exploram lógica, geometria e estratégia, com regras acessíveis, dificuldade progressiva e identidade visual brasileira com azulejos, mascotes, ilustrações próprias e paleta verde, amarela e azul. Meu trabalho reúne mecânicas, construção de fases, dicas, interfaces e documentação.
 
 O projeto também aplica **inteligência artificial a jogos**: DESVIO utiliza busca exata com memoização nos mapas suportados; CERCO usa minimax com poda alfa-beta e heurísticas, dentro de um orçamento de busca. A proposta é fazer a dificuldade crescer pelas decisões e relações que o jogador descobre, valorizando raciocínio e autonomia.
+
+---
+
+### Trilha Viva · Materiais, fontes e revisão
+
+**[Abrir repositório](https://github.com/luigiscofano/trilha-viva)** · JavaScript · HTML · CSS · Node.js · PDF.js · Tesseract.js  
+[Usar no navegador](https://luigiscofano.github.io/trilha-viva/) · [Documentação](https://github.com/luigiscofano/trilha-viva/blob/main/docs/README.md)
+
+Plataforma de estudos para organizar textos e PDFs, extrair referências, revisar conteúdo, planejar tarefas e acompanhar o histórico. Possui OCR local opcional e exportação/importação de backup.
+
+**Estado atual:** materiais, revisão e progresso ficam no navegador. O backend e os contratos de IA são opcionais; nenhum provedor está ativo na demonstração pública. Contas e sincronização com Supabase ainda não estão ativas; n8n, Make e Zapier têm pontos de integração documentados, não uma integração operacional. O projeto distingue conteúdo demonstrativo de geração real e exige conferência humana das fontes.
 
 ---
 
@@ -144,6 +163,7 @@ Cada repositório explica **o problema, os módulos, a instalação, uma primeir
 | Família | Preparação típica | Primeiro caminho |
 | --- | --- | --- |
 | Intuição | Navegador e Python 3 para servir os arquivos de `dist/` por HTTP | Seguir o [guia de execução local](https://github.com/luigiscofano/intuicao#executar-no-computador), escolher um jogo e explorar as regras. |
+| Trilha Viva | Navegador para uso local de dados; Node.js 22.13+ para desenvolvimento | Abrir a demonstração ou seguir `npm ci` e `npm run dev` no README; IA e contas não ficam ativas por esse comando. |
 | Pokédex web | Navegador para a demonstração pública; Node.js 20+ com npm para execução local | Abrir o site ou executar `npm run dev`; Java é um módulo opcional independente. |
 | GestureLab | Python 3.12, ambiente virtual, dependências, modelos e câmera/ambiente gráfico | Iniciar `hands`; depois experimentar os outros modos. |
 | Tupi Antigo e Métodos Numéricos | Python 3.12, dependências e kernel para notebooks | Rodar a demonstração TSV ou executar/exportar os roteiros. |
