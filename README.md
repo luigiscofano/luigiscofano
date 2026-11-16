@@ -196,7 +196,7 @@ Contribuo para um **museu interativo sobre a história da computação**, com am
 Trabalhei com bases de Remuneração e Benefícios, dashboards em Power BI e análises com Excel e MySQL. Estruturei indicadores de quadro de pessoal, contratações, desligamentos, remuneração e desempenho, além de automatizar a consolidação de informações e utilizar Git no versionamento.
 
 **BTG Pactual · Foreign Exchange (FX)**  
-Participei do programa Summer Job, apoiando análises de mercado e modelos quantitativos para a equipe de câmbio internacional. Também trabalhei no desenvolvimento de interfaces front-end para a equipe.
+Participei do programa Summer Job e contribuí para o desenvolvimento da plataforma web de transações internacionais, colaborando com a equipe de front-end.
 
 **TRIA Commodities · Comercial, dados e automação**  
 Atuo na área comercial e desenvolvo protótipos para apoiar a prospecção e a organização de oportunidades. O trabalho inclui cruzamento de informações da CCEE com o HubSpot, deduplicação e filtros para apoiar a análise de leads.
