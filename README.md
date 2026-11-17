@@ -17,7 +17,7 @@ Desenvolvo produtos web e experimentos de IA aplicada, dados e computação. Meu
 
 **[Intuição](https://github.com/luigiscofano/intuicao)**
 
-19 jogos de lógica e estratégia com identidade brasileira.
+Site educativo com 19 jogos de lógica e estratégia, fases progressivas e identidade visual brasileira.
 
 HTML · CSS · JavaScript
 
@@ -27,7 +27,7 @@ HTML · CSS · JavaScript
 
 **[GestureLab](https://github.com/luigiscofano/gesturelab)**
 
-Mãos, gestos, desenho no ar e comparação de poses.
+Aplicação de visão computacional que usa a webcam para reconhecer gestos, desenhar no ar e comparar poses.
 
 Python · OpenCV · MediaPipe
 
@@ -37,7 +37,7 @@ Python · OpenCV · MediaPipe
 
 **[Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos)**
 
-Experimentos reproduzíveis, fractais e computação científica.
+Repositório de notebooks Python com métodos numéricos, simulações e fractais para explorar precisão, convergência e estabilidade.
 
 Python · NumPy · Matplotlib
 
@@ -48,7 +48,7 @@ Python · NumPy · Matplotlib
 [Todos os projetos e pesquisas](docs/PROJETOS.md) · [Todos os repositórios](https://github.com/luigiscofano?tab=repositories)
 
 <details>
-<summary><strong>Mais sobre mim, trajetória, competências e detalhes dos projetos</strong></summary>
+<summary><strong>Conheça minha trajetória, minhas competências e outros projetos</strong></summary>
 
 ## Sobre mim
 
