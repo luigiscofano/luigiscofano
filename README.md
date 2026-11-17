@@ -110,11 +110,11 @@ Desenvolvo uma plataforma educativa com **19 jogos no navegador, organizados em 
 
 O projeto também aplica **inteligência artificial a jogos**: DESVIO utiliza busca exata com memoização nos mapas suportados; CERCO usa minimax com poda alfa-beta e heurísticas, dentro de um orçamento de busca. A proposta é fazer a dificuldade crescer pelas decisões e relações que o jogador descobre, valorizando raciocínio e autonomia.
 
----
-
 <p><img src="docs/assets/intuicao-cerco.png" width="640" alt="Captura real do jogo Cerco no Intuição"></p>
 
 *Cerco: interface de um dos jogos de estratégia do Intuição.*
+
+---
 
 ### Trilha Viva · Materiais, fontes e revisão
 
@@ -154,11 +154,11 @@ Aplicação web com **1.025 espécies, 1.351 variedades e 1.579 formas catalogad
 
 O projeto reúne interface responsiva, dados versionados, importação reproduzível, testes e documentação. Preserva também o exercício Java original de 2023 em um módulo independente, mostrando a evolução do primeiro repositório para uma aplicação navegável.
 
----
-
 <p><img src="docs/assets/pokedex-grade-johto.png" width="640" alt="Captura real da grade de Pokémon de Johto na Pokédex"></p>
 
 *Pokédex: exploração visual do catálogo de Johto.*
+
+---
 
 ### Métodos Numéricos · Matemática em experimentos reproduzíveis
 
@@ -166,17 +166,19 @@ O projeto reúne interface responsiva, dados versionados, importação reproduz�
 
 Notebooks e implementações de raízes, sistemas lineares, Fourier, interpolação, equações diferenciais e GPS sintético. Os experimentos usam gráficos para investigar precisão, convergência e estabilidade dos métodos.
 
----
-
 <p><img src="docs/assets/metodos-numericos-julia.png" width="640" alt="Fractal de Julia calculado no projeto de Métodos Numéricos"></p>
 
 *Conjunto de Julia: resultado numérico, com eixos e parâmetros da experiência.*
+
+---
 
 ### Tetris em C · Regras, terminal e replay
 
 **[Abrir repositório](https://github.com/luigiscofano/tetris-c)** · C11 · Make · Python para verificação
 
 Jogo de Tetris no terminal, com movimentação, rotação, pontuação e níveis. O motor é separado da interface e permite reproduzir partidas por replay, com testes das regras e da linha de comando.
+
+---
 
 ## Sistemas digitais e arquitetura
 
@@ -202,6 +204,8 @@ Três projetos de Sistemas Digitais II: conversor binário–BCD, calculadora pr
 
 Calculadora de notação pós-fixa em Assembly MVN, com montador e máquina virtual didáticos. Explora pilha, subrotinas, representação de dados e execução de instruções, com testes e rastreamento passo a passo.
 
+---
+
 ## Algoritmos e orientação a objetos
 
 ### MAC0122 · Algoritmos, invariantes e testes
@@ -225,6 +229,8 @@ Exercícios de orientação a objetos com simulação de eventos, transições d
 **[Abrir repositório](https://github.com/luigiscofano/MAC0321-Lista08)** · Java · Swing · JUnit · Adapter
 
 Exercícios em **coautoria com Hugo Spadete Arrivabene** sobre interfaces Swing, testes, coleções e padrão Adapter. Exploram separação entre interface e lógica, generics e adaptação por composição.
+
+---
 
 ## Como explorar e executar
 
@@ -253,6 +259,8 @@ python -m unittest discover -s tests -v
 
 A expressão deve devolver `status: 0` e `resultado: 15`; o rastreamento fica em `build/trace.json`. Se o seu sistema usa `python3`, substitua o nome do comando. Os demais projetos têm requisitos próprios, detalhados em seus READMEs.
 
+---
+
 ## Competências em prática
 
 | Área | Ferramentas e conhecimentos | Aplicação no portfólio ou na trajetória |
@@ -270,6 +278,8 @@ A expressão deve devolver `status: 0` e `resultado: 15`; o rastreamento fica em
 
 **Em aprofundamento:** machine learning, IA generativa e engenharia de dados.
 
+---
+
 ## Pesquisa e desenvolvimento
 
 Além da [pesquisa em Tupi Antigo](docs/PROJETOS_DETALHADOS.md#ic--tupi-antigo-ocr-e-dados-linguísticos), trabalho em iniciativas que aproximam tecnologia, educação e interação.
@@ -280,18 +290,26 @@ Contribuo para um **museu interativo sobre a história da computação**, com am
 
 **Temas:** desenvolvimento web, computação gráfica, ambientes 3D e aprendizagem.
 
+---
+
 ## Trajetória profissional
 
 **Núclea · Dados e indicadores de RH**  
 Trabalhei com bases de Remuneração e Benefícios, dashboards em Power BI e análises com Excel e MySQL. Estruturei indicadores de quadro de pessoal, contratações, desligamentos, remuneração e desempenho, além de automatizar a consolidação de informações e utilizar Git no versionamento.
 
+---
+
 **BTG Pactual · Foreign Exchange (FX)**  
 Participei do programa Summer Job e contribuí para o desenvolvimento da plataforma web de transações internacionais, colaborando com a equipe de front-end.
+
+---
 
 **TRIA Commodities · Comercial, dados e automação**  
 Atuo na área comercial e desenvolvo protótipos para apoiar a prospecção e a organização de oportunidades. O trabalho inclui cruzamento de informações da CCEE com o HubSpot, deduplicação e filtros para apoiar a análise de leads.
 
 Essas experiências reforçam meu interesse por soluções que conectem necessidades de negócio, dados e implementação técnica.
+
+---
 
 ## Formação e aprendizado
 
