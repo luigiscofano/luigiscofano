@@ -66,6 +66,8 @@ Pesquisa em destaque: [IC · Tupi Antigo — PLN, OCR e dados linguísticos no I
 
 </details>
 
+---
+
 <details>
 <summary><strong>Competências</strong></summary>
 
@@ -83,6 +85,8 @@ Pesquisa em destaque: [IC · Tupi Antigo — PLN, OCR e dados linguísticos no I
 
 </details>
 
+---
+
 <details>
 <summary><strong>Outros projetos</strong></summary>
 
@@ -93,6 +97,8 @@ Pesquisa em destaque: [IC · Tupi Antigo — PLN, OCR e dados linguísticos no I
 [Índice completo](docs/PROJETOS.md) · [Contexto e como executar](docs/PROJETOS_DETALHADOS.md) · [Todos os repositórios](https://github.com/luigiscofano?tab=repositories)
 
 </details>
+
+---
 
 <details>
 <summary><strong>Conheça os projetos, as experiências e as escolhas técnicas em profundidade</strong></summary>
