@@ -15,7 +15,7 @@
 
 | Projeto | Conteúdo disponível | Caminho para explorar |
 | --- | --- | --- |
-| [Intuição](https://github.com/luigiscofano/intuicao) | 19 jogos nas categorias Intuição, Raciocínio Lógico e Versus; azulejos, mascotes e ilustrações com identidade brasileira. | [Jogar no navegador](https://intuicao-luigi-minigames.luigiscofano.chatgpt.site) e [manuais](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md). |
+| [Intuição](https://github.com/luigiscofano/intuicao) | 19 jogos nas categorias Intuição, Raciocínio Lógico e Versus; azulejos, mascotes e ilustrações com identidade brasileira. | [Jogar no navegador](https://luigiscofano.github.io/intuicao/) e [manuais](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md). |
 | [Pokédex](https://github.com/luigiscofano/Pokedex) | Aplicação web com 1.025 espécies, formas alternativas, shiny, evoluções, tipos e dados por jogo. O exercício Java original permanece independente. | [Explorar no navegador](https://pokedex-luigi-explorer.luigiscofano.chatgpt.site), [guia de uso](https://github.com/luigiscofano/Pokedex/blob/main/docs/usuario/README.md) e [Java original](https://github.com/luigiscofano/Pokedex/blob/main/src/README.md). |
 | [Trilha Viva](https://github.com/luigiscofano/trilha-viva) | Materiais, PDF/OCR local, referências, revisão, plano, histórico e backup. IA, automações, contas e sincronização não estão ativas na demonstração. | [Aplicação](https://luigiscofano.github.io/trilha-viva/) e [documentação](https://github.com/luigiscofano/trilha-viva/blob/main/docs/README.md). |
 

@@ -48,7 +48,7 @@ The seven starting points are **Intuição, Trilha Viva, GestureLab, Old Tupi re
 ### Intuição · Logic, geometry, and strategy games
 
 **[Repository](https://github.com/luigiscofano/intuicao)** · HTML · CSS · JavaScript · Game AI  
-[Play in your browser · public access](https://intuicao-luigi-minigames.luigiscofano.chatgpt.site) · [Game manuals](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md)
+[Play in your browser · public access](https://luigiscofano.github.io/intuicao/) · [Game manuals](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md)
 
 An educational platform with **19 browser games organized into Intuição, Logical Reasoning, and Versus**. My work combines game mechanics, level design, hints, interfaces, and documentation, with a Brazilian visual identity built around tiles, mascots, original illustrations, and a green, yellow, and blue palette.
 
