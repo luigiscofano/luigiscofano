@@ -12,8 +12,8 @@ Desenvolvo produtos web e experimentos de IA aplicada, dados e computação. Meu
 
 <table>
 <tr>
-<td width="33%" valign="top">
-<a href="https://github.com/luigiscofano/intuicao"><img src="docs/assets/intuicao-cerco.png" width="280" alt="Captura do jogo Cerco, do Intuição, com tabuleiro e peças de animais"></a>
+<td width="50%" valign="top">
+<a href="https://github.com/luigiscofano/intuicao"><img src="docs/assets/intuicao-logo-oficial.svg" width="280" alt="Logo oficial do Intuição, com azulejos e nome do projeto"></a>
 
 **[Intuição](https://github.com/luigiscofano/intuicao)**
 
@@ -22,7 +22,7 @@ Desenvolvo produtos web e experimentos de IA aplicada, dados e computação. Meu
 HTML · CSS · JavaScript
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 <a href="https://github.com/luigiscofano/gesturelab"><img src="docs/assets/gesturelab-marca.png" width="280" alt="Logo oficial do GestureLab"></a>
 
 **[GestureLab](https://github.com/luigiscofano/gesturelab)**
@@ -32,7 +32,9 @@ Mãos, gestos, desenho no ar e comparação de poses.
 Python · OpenCV · MediaPipe
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://github.com/luigiscofano/Pokedex"><img src="docs/assets/pokedex-rota001.png" width="280" alt="Captura real da Pokédex com a marca Rota 001 e ficha de Charizard"></a>
 
 **[Pokédex · Rota 001](https://github.com/luigiscofano/Pokedex)**
@@ -40,6 +42,16 @@ Python · OpenCV · MediaPipe
 Exploração de espécies, formas, evoluções e favoritos.
 
 HTML · CSS · JavaScript
+
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/luigiscofano/usp-metodos-numericos"><img src="docs/assets/metodos-numericos-julia.png" width="280" alt="Fractal de Julia calculado numericamente, com título, fórmula e eixos"></a>
+
+**[Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos)**
+
+Experimentos reproduzíveis, fractais e computação científica.
+
+Python · NumPy · Matplotlib
 
 </td>
 </tr>
