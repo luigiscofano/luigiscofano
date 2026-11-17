@@ -12,7 +12,7 @@ Desenvolvo produtos web e experimentos de IA aplicada, dados e computação. Meu
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="48%" valign="top">
 <a href="https://github.com/luigiscofano/intuicao"><img src="docs/assets/intuicao-logo-oficial.svg" width="280" alt="Logo oficial do Intuição, com azulejos e nome do projeto"></a>
 
 **[Intuição](https://github.com/luigiscofano/intuicao)**
@@ -22,7 +22,8 @@ Desenvolvo produtos web e experimentos de IA aplicada, dados e computação. Meu
 HTML · CSS · JavaScript
 
 </td>
-<td width="50%" valign="top">
+<td width="4%" aria-hidden="true">&nbsp;</td>
+<td width="48%" valign="top">
 <a href="https://github.com/luigiscofano/gesturelab"><img src="docs/assets/gesturelab-marca.png" width="280" alt="Logo oficial do GestureLab"></a>
 
 **[GestureLab](https://github.com/luigiscofano/gesturelab)**
@@ -33,9 +34,14 @@ Python · OpenCV · MediaPipe
 
 </td>
 </tr>
+</table>
+
+<br>
+
+<table>
 <tr>
-<td width="50%" valign="top">
-<a href="https://github.com/luigiscofano/Pokedex"><img src="docs/assets/pokedex-rota001.png" width="280" alt="Captura real da Pokédex com a marca Rota 001 e ficha de Charizard"></a>
+<td width="48%" valign="top">
+<a href="https://github.com/luigiscofano/Pokedex"><img src="docs/assets/pokedex-grade-johto.png" width="280" alt="Captura real da Pokédex mostrando os cartões de Pokémon de Johto"></a>
 
 **[Pokédex · Rota 001](https://github.com/luigiscofano/Pokedex)**
 
@@ -44,8 +50,9 @@ Exploração de espécies, formas, evoluções e favoritos.
 HTML · CSS · JavaScript
 
 </td>
-<td width="50%" valign="top">
-<a href="https://github.com/luigiscofano/usp-metodos-numericos"><img src="docs/assets/metodos-numericos-julia.png" width="280" alt="Fractal de Julia calculado numericamente, com título, fórmula e eixos"></a>
+<td width="4%" aria-hidden="true">&nbsp;</td>
+<td width="48%" valign="top">
+<a href="https://github.com/luigiscofano/usp-metodos-numericos"><img src="docs/assets/metodos-numericos-julia-destaque.png" width="280" alt="Fractal de Julia calculado numericamente, sem títulos ou eixos"></a>
 
 **[Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos)**
 
