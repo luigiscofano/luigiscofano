@@ -48,7 +48,7 @@ Python · NumPy · Matplotlib
 [Todos os projetos e pesquisas](docs/PROJETOS.md) · [Todos os repositórios](https://github.com/luigiscofano?tab=repositories)
 
 <details>
-<summary><strong>Mais sobre mim, trajetória, competências e detalhes dos projetos</strong></summary>
+<summary><strong>Conheça minha trajetória, minhas competências e outros projetos</strong></summary>
 
 ## Sobre mim
 
