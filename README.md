@@ -1,12 +1,54 @@
+<p><img src="docs/assets/assinatura-bem-te-vi.svg" width="180" alt="Bem-te-vi no galho: assinatura visual de Luigi Scofano de Araujo"></p>
+
 # Luigi Scofano de Araujo
 
 **Engenharia de Computação na Poli-USP · IA aplicada · Dados · Engenharia de software**
 
 Desenvolvo produtos web e experimentos de IA aplicada, dados e computação. Meu foco é transformar problemas concretos em soluções verificáveis, com código claro, testes e documentação.
 
-[Portfólio](https://luigiscofano.github.io/portfolio/) · [LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en) · [E-mail](mailto:luigiscofano.dev@gmail.com) · [English version](README.en.md) · [Todos os repositórios](https://github.com/luigiscofano?tab=repositories)
+[Portfólio](https://luigiscofano.github.io/portfolio/) · [LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en) · [E-mail](mailto:luigiscofano.dev@gmail.com) · [English version](README.en.md)
 
-[Sobre mim](#sobre-mim) · [Destaques](#projetos-em-destaque) · [Hardware e sistemas](#sistemas-digitais-e-arquitetura) · [Algoritmos e Java](#algoritmos-e-orientação-a-objetos) · [Como executar](#como-explorar-e-executar) · [Competências](#competências) · [Trajetória](#trajetória-profissional)
+## Conheça meus projetos
+
+<table>
+<tr>
+<td width="33%" valign="top">
+<a href="https://github.com/luigiscofano/intuicao"><img src="docs/assets/intuicao-cerco.png" width="280" alt="Captura do jogo Cerco, do Intuição, com tabuleiro e peças de animais"></a>
+
+**[Intuição](https://github.com/luigiscofano/intuicao)**
+
+19 jogos de lógica e estratégia com identidade brasileira.
+
+HTML · CSS · JavaScript
+
+</td>
+<td width="33%" valign="top">
+<a href="https://github.com/luigiscofano/gesturelab"><img src="docs/assets/gesturelab-marca.png" width="280" alt="Logo oficial do GestureLab"></a>
+
+**[GestureLab](https://github.com/luigiscofano/gesturelab)**
+
+Mãos, gestos, desenho no ar e comparação de poses.
+
+Python · OpenCV · MediaPipe
+
+</td>
+<td width="33%" valign="top">
+<a href="https://github.com/luigiscofano/Pokedex"><img src="docs/assets/pokedex-rota001.png" width="280" alt="Captura real da Pokédex com a marca Rota 001 e ficha de Charizard"></a>
+
+**[Pokédex · Rota 001](https://github.com/luigiscofano/Pokedex)**
+
+Exploração de espécies, formas, evoluções e favoritos.
+
+HTML · CSS · JavaScript
+
+</td>
+</tr>
+</table>
+
+[Todos os projetos e pesquisas](docs/PROJETOS.md) · [Todos os repositórios](https://github.com/luigiscofano?tab=repositories)
+
+<details>
+<summary><strong>Mais sobre mim, trajetória, competências e detalhes dos projetos</strong></summary>
 
 ## Sobre mim
 
@@ -269,3 +311,5 @@ Este repositório é a apresentação do perfil, renderizada diretamente pelo Gi
 Tenho interesse em projetos, pesquisa e oportunidades em **desenvolvimento de software, inteligência artificial e dados**, especialmente quando há um problema concreto para investigar e uma solução para construir.
 
 **[LinkedIn](https://br.linkedin.com/in/luigi-scofano-de-araujo-233102261/en)** · **[luigiscofano.dev@gmail.com](mailto:luigiscofano.dev@gmail.com)** · **[luigiaraujo23@gmail.com](mailto:luigiaraujo23@gmail.com)**
+
+</details>
