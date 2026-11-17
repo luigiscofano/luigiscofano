@@ -16,3 +16,7 @@ Assets locais para não depender de links temporários ou serviços de badges. A
 Nenhuma prévia sintética foi apresentada como captura real. As imagens foram copiadas sem alteração de arte (exceto o recorte documentado de Julia), sem cursor visível e com textos alternativos no perfil. O dimensionamento é feito pelo HTML do README. As marcas e personagens de terceiros mantêm seus direitos; a Pokédex é um projeto de fã.
 
 [Perfil](../../README.md) · [Portfólio](https://github.com/luigiscofano/portfolio) · [GestureLab](https://github.com/luigiscofano/gesturelab)
+
+## Apresentação em três colunas
+
+`intuicao-cartao.svg`, `gesturelab-cartao.svg` e `chua-cartao.svg` envolvem os assets originais em uma tela comum de 600 × 400, com ajuste proporcional e sem cortes ou distorção. Isso mantém as três imagens e títulos alinhados. `metodos-numericos-chua.svg` é cópia fiel de `portfolio/public/images/projects/captures/metodos-06_chua.svg`. Pokédex permanece no conteúdo detalhado do perfil, fora da apresentação inicial.
