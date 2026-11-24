@@ -53,6 +53,8 @@ Python · NumPy · Matplotlib
 
 Pesquisa em destaque: [IC · Tupi Antigo — PLN, OCR e dados linguísticos no IME-USP](https://github.com/luigiscofano/ic-pln-tupi-antigo).
 
+Também no portfólio: [Maré Miúda: Entre Ilhas](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda), um quebra-cabeça de maré para jogar por turnos.
+
 <details>
 <summary><strong>Trajetória e formação</strong></summary>
 
@@ -119,6 +121,16 @@ O projeto também aplica **inteligência artificial a jogos**: DESVIO utiliza bu
 <p><img src="docs/assets/intuicao-cerco.png" width="640" alt="Captura real do jogo Cerco no Intuição"></p>
 
 *Cerco: interface de um dos jogos de estratégia do Intuição.*
+
+---
+
+### Maré Miúda: Entre Ilhas · Quebra-cabeça de maré
+
+**[Conhecer no portfólio](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda)** · HTML · CSS · JavaScript · Canvas 2D · Python
+
+Quebra-cabeça por turnos em pixel art com **231 fases de campanha em oito mundos**. A maré vira a cada três movimentos válidos: o jogador planeja os passos para atravessar os baixios antes que a água suba.
+
+A edição offline reúne um motor determinístico, renderização em Canvas 2D e interface em português e inglês. O idioma troca sem reiniciar a partida.
 
 ---
 
