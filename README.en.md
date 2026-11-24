@@ -46,6 +46,85 @@ Start with **Intuição, Tiny Tide: Between Islands, Trilha Viva, GestureLab, Ol
 
 ## Featured projects
 
+<table>
+<tr>
+<td width="33%" valign="top">
+<a href="https://github.com/luigiscofano/intuicao"><img src="docs/assets/intuicao-cartao.svg" width="280" alt="Official Intuição logo"></a>
+
+**[Intuição](https://github.com/luigiscofano/intuicao)**
+
+An educational site with 19 logic and strategy games, progressive levels, and a Brazilian visual identity.
+
+HTML · CSS · JavaScript
+
+[Play](https://luigiscofano.github.io/intuicao/) · [Code](https://github.com/luigiscofano/intuicao)
+
+</td>
+<td width="33%" valign="top">
+<a href="https://github.com/luigiscofano/gesturelab"><img src="docs/assets/gesturelab-cartao.svg" width="280" alt="Official GestureLab logo"></a>
+
+**[GestureLab](https://github.com/luigiscofano/gesturelab)**
+
+A computer vision application that uses a webcam to recognize gestures, draw in the air, and compare poses.
+
+Python · OpenCV · MediaPipe
+
+[How to test](https://github.com/luigiscofano/gesturelab/blob/main/docs/INSTALACAO.md) · [Code](https://github.com/luigiscofano/gesturelab)
+
+</td>
+<td width="33%" valign="top">
+<a href="https://github.com/luigiscofano/usp-metodos-numericos"><img src="docs/assets/chua-cartao.svg" width="280" alt="Actual Chua attractor plot published in the portfolio"></a>
+
+**[Numerical Methods](https://github.com/luigiscofano/usp-metodos-numericos)**
+
+Python notebooks with numerical methods, simulations, and fractals for studying accuracy, convergence, and stability.
+
+Python · NumPy · Matplotlib
+
+[Notebooks](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/notebooks/README.md) · [Gallery](https://github.com/luigiscofano/usp-metodos-numericos/blob/main/assets/README.md)
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+<a href="https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda"><img src="docs/assets/mare-miuda-cartao.svg" width="280" alt="Official Tiny Tide: Between Islands logo"></a>
+
+**[Tiny Tide: Between Islands](https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda)**
+
+A turn-based pixel-art tide puzzle with 231 levels across eight worlds and a bilingual offline edition.
+
+HTML · CSS · JavaScript · Canvas 2D
+
+[View on portfolio](https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda)
+
+</td>
+<td width="33%" valign="top">
+<a href="https://github.com/luigiscofano/Miudezas"><img src="docs/assets/miudezas-cartao.svg" width="280" alt="Official Miudezas wordmark"></a>
+
+**[Miudezas](https://github.com/luigiscofano/Miudezas)**
+
+Ten neighborhood-inspired pixel-art minigames, with standalone play, a sequence mode, and multiple difficulties.
+
+HTML · CSS · JavaScript · Canvas 2D
+
+[Play](https://luigiscofano.github.io/Miudezas/) · [Code](https://github.com/luigiscofano/Miudezas)
+
+</td>
+<td width="33%" valign="top">
+<a href="https://github.com/luigiscofano/trilha-viva"><img src="docs/assets/trilha-viva-cartao.svg" width="280" alt="Official blue Trilha Viva brand with an open book"></a>
+
+**[Trilha Viva](https://github.com/luigiscofano/trilha-viva)**
+
+A study platform for organizing text and PDFs, reviewing sources, and tracking progress in the browser.
+
+HTML · CSS · JavaScript · PDF.js
+
+[Open in browser](https://luigiscofano.github.io/trilha-viva/) · [Code](https://github.com/luigiscofano/trilha-viva)
+
+</td>
+</tr>
+</table>
+
 ### Intuição · Logic, geometry, and strategy games
 
 **[Repository](https://github.com/luigiscofano/intuicao)** · HTML · CSS · JavaScript · Game AI  

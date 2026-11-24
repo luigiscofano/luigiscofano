@@ -49,6 +49,44 @@ Python · NumPy · Matplotlib
 
 </td>
 </tr>
+<tr>
+<td width="33%" valign="top">
+<a href="https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda"><img src="docs/assets/mare-miuda-cartao.svg" width="280" alt="Logo oficial de Maré Miúda: Entre Ilhas"></a>
+
+**[Maré Miúda: Entre Ilhas](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda)**
+
+Quebra-cabeça de maré por turnos em pixel art, com 231 fases em oito mundos e edição offline bilíngue.
+
+HTML · CSS · JavaScript · Canvas 2D
+
+[Ver no portfólio](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda)
+
+</td>
+<td width="33%" valign="top">
+<a href="https://github.com/luigiscofano/Miudezas"><img src="docs/assets/miudezas-cartao.svg" width="280" alt="Logotipo oficial de Miudezas"></a>
+
+**[Miudezas](https://github.com/luigiscofano/Miudezas)**
+
+Dez minijogos de bairro em pixel art, com partidas avulsas, sequência e desafios em dificuldades variadas.
+
+HTML · CSS · JavaScript · Canvas 2D
+
+[Jogar](https://luigiscofano.github.io/Miudezas/) · [Código](https://github.com/luigiscofano/Miudezas)
+
+</td>
+<td width="33%" valign="top">
+<a href="https://github.com/luigiscofano/trilha-viva"><img src="docs/assets/trilha-viva-cartao.svg" width="280" alt="Marca oficial azul de Trilha Viva, com livro aberto"></a>
+
+**[Trilha Viva](https://github.com/luigiscofano/trilha-viva)**
+
+Plataforma de estudos para organizar textos e PDFs, revisar fontes e acompanhar o progresso no navegador.
+
+HTML · CSS · JavaScript · PDF.js
+
+[Usar no navegador](https://luigiscofano.github.io/trilha-viva/) · [Código](https://github.com/luigiscofano/trilha-viva)
+
+</td>
+</tr>
 </table>
 
 Pesquisa em destaque: [IC · Tupi Antigo — PLN, OCR e dados linguísticos no IME-USP](https://github.com/luigiscofano/ic-pln-tupi-antigo).

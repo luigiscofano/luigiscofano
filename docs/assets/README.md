@@ -19,4 +19,12 @@ Nenhuma prévia sintética foi apresentada como captura real. As imagens foram c
 
 ## Apresentação em três colunas
 
-`intuicao-cartao.svg`, `gesturelab-cartao.svg` e `chua-cartao.svg` envolvem os assets originais em uma tela comum de 600 × 400, com ajuste proporcional e sem cortes ou distorção. Isso mantém as três imagens e títulos alinhados. `metodos-numericos-chua.svg` é cópia fiel de `portfolio/public/images/projects/captures/metodos-06_chua.svg`. Pokédex permanece no conteúdo detalhado do perfil, fora da apresentação inicial.
+Os READMEs em português e inglês apresentam duas fileiras de três projetos. Cada cartão usa uma tela branca de 600 × 400 com ajuste proporcional para manter as imagens alinhadas. A primeira fileira mantém `intuicao-cartao.svg`, `gesturelab-cartao.svg` e `chua-cartao.svg`.
+
+| Cartão da segunda fileira | Origem pública |
+| --- | --- |
+| `mare-miuda-cartao.svg` | [Logo oficial no portfólio](https://luigiscofano.github.io/portfolio/images/projects/mare-miuda/logo-oficial.png), preservado no quadro sem redesenho. |
+| `miudezas-cartao.svg` | [Logotipo oficial de Miudezas](https://github.com/luigiscofano/Miudezas/blob/main/dist/artes/marca/miudezas-logo.png), dimensionado por vizinho mais próximo, sem redesenho. |
+| `trilha-viva-cartao.svg` | Recorte da variante B, “Páginas”, na [prancha oficial do Trilha Viva](https://github.com/luigiscofano/trilha-viva/blob/main/assets/brand-approved-board.png). O recorte isola o símbolo e o nome, sem redesenhá-los. |
+
+`metodos-numericos-chua.svg` é cópia fiel de `portfolio/public/images/projects/captures/metodos-06_chua.svg`. Pokédex permanece no conteúdo detalhado do perfil, fora da apresentação inicial.
