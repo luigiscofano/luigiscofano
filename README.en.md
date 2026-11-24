@@ -26,13 +26,14 @@ I enjoy understanding how tools work: how a model interprets an image, how infor
 - **Engineering and systems:** LabDig, Digital Systems, and MVN Assembly.
 - **Learning and experiments:** Numerical Methods, Tetris in C, Algorithms, and Object-Oriented Programming.
 
-The seven starting points are **Intuição, Trilha Viva, GestureLab, Old Tupi research, Numerical Methods, LabDig, and Pokédex**. Other projects remain in the index below.
+Start with **Intuição, Tiny Tide: Between Islands, Trilha Viva, GestureLab, Old Tupi research, Numerical Methods, LabDig, and Pokédex**. Other projects remain in the index below.
 
 ### Where to start
 
 | If you want to explore… | Start with |
 | --- | --- |
 | Browser-based logic, geometry, and strategy games with game AI | [Intuição](https://github.com/luigiscofano/intuicao) |
+| Turn-based pixel-art puzzles that use a changing tide | [Tiny Tide: Between Islands](https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda) |
 | Study materials, source review, and planning with local data | [Trilha Viva](https://github.com/luigiscofano/trilha-viva) |
 | A visual application using a webcam and gestures | [GestureLab](https://github.com/luigiscofano/gesturelab) |
 | Language research, OCR, and data quality | [Old Tupi research](https://github.com/luigiscofano/ic-pln-tupi-antigo) |
@@ -53,6 +54,14 @@ The seven starting points are **Intuição, Trilha Viva, GestureLab, Old Tupi re
 An educational platform with **19 browser games organized into Intuição, Logical Reasoning, and Versus**. My work combines game mechanics, level design, hints, interfaces, and documentation, with a Brazilian visual identity built around tiles, mascots, original illustrations, and a green, yellow, and blue palette.
 
 The game AI includes exact search with memoization in DESVIO and minimax with alpha-beta pruning and heuristics in CERCO. The aim is to increase difficulty through the decisions and relationships players discover.
+
+### Tiny Tide: Between Islands · Turn-based tide puzzles
+
+**[View on portfolio](https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda)** · HTML · CSS · JavaScript · Canvas 2D · Python
+
+A turn-based pixel-art puzzle with **231 campaign levels across eight worlds**. The tide turns every three valid moves, so players plan their route across tidal flats before the water rises.
+
+The offline edition combines a deterministic game engine, Canvas 2D rendering, and a bilingual Portuguese/English interface. Switching languages does not restart the level.
 
 ### Trilha Viva · Study materials, sources, and review
 
