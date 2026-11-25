@@ -52,6 +52,7 @@ Start with **Intuição, Tiny Tide: Between Islands, Trilha Viva, GestureLab, Ol
 <tr>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/intuicao"><img src="docs/assets/intuicao-cartao.svg" width="280" alt="Official Intuição logo"></a>
+<a href="https://github.com/luigiscofano/luigiscofano/blob/main/docs/assets/intuicao-cerco.png"><img src="docs/assets/intuicao-cerco.png" width="280" alt="A game of Cerco in Intuição"></a>
 
 **[Intuição](https://github.com/luigiscofano/intuicao)**
 
@@ -64,6 +65,7 @@ HTML · CSS · JavaScript
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/gesturelab"><img src="docs/assets/gesturelab-cartao.svg" width="280" alt="Official GestureLab logo"></a>
+<a href="https://github.com/luigiscofano/gesturelab/blob/main/docs/assets/posematch_preview.png"><img src="https://raw.githubusercontent.com/luigiscofano/gesturelab/main/docs/assets/posematch_preview.png" width="280" alt="PoseMatch preview using synthetic data"></a>
 
 **[GestureLab](https://github.com/luigiscofano/gesturelab)**
 
@@ -76,6 +78,7 @@ Python · OpenCV · MediaPipe
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/usp-metodos-numericos"><img src="docs/assets/chua-cartao.svg" width="280" alt="Actual Chua attractor plot published in the portfolio"></a>
+<a href="https://github.com/luigiscofano/luigiscofano/blob/main/docs/assets/metodos-numericos-julia.png"><img src="docs/assets/metodos-numericos-julia.png" width="280" alt="Julia set computed in the Numerical Methods notebook"></a>
 
 **[Numerical Methods](https://github.com/luigiscofano/usp-metodos-numericos)**
 
@@ -90,6 +93,7 @@ Python · NumPy · Matplotlib
 <tr>
 <td width="33%" valign="top">
 <a href="https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda"><img src="docs/assets/mare-miuda-cartao.svg" width="280" alt="Official Tiny Tide: Between Islands logo"></a>
+<a href="https://github.com/luigiscofano/mare-miuda-entre-ilhas/blob/main/docs/arte/galeria/travessias/mundo-01-baixa.png"><img src="https://raw.githubusercontent.com/luigiscofano/mare-miuda-entre-ilhas/main/docs/arte/galeria/travessias/mundo-01-baixa.png" width="280" alt="A low-tide crossing with the crab in Tiny Tide"></a>
 
 **[Tiny Tide: Between Islands](https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda)**
 
@@ -102,6 +106,7 @@ HTML · CSS · JavaScript · Canvas 2D
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/Miudezas"><img src="docs/assets/miudezas-cartao.svg" width="280" alt="Official Miudezas wordmark"></a>
+<a href="https://github.com/luigiscofano/Miudezas/blob/main/docs/imagens/telas/selecao-jogos.jpg"><img src="https://raw.githubusercontent.com/luigiscofano/Miudezas/main/docs/imagens/telas/selecao-jogos.jpg" width="280" alt="Minigame selection in Miudezas"></a>
 
 **[Miudezas](https://github.com/luigiscofano/Miudezas)**
 
@@ -114,6 +119,7 @@ HTML · CSS · JavaScript · Canvas 2D
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/trilha-viva"><img src="docs/assets/trilha-viva-cartao.svg" width="280" alt="Official blue Trilha Viva brand with an open book"></a>
+<a href="https://github.com/luigiscofano/portfolio/blob/main/public/images/projects/captures/trilha-viva-painel.jpg"><img src="https://raw.githubusercontent.com/luigiscofano/portfolio/main/public/images/projects/captures/trilha-viva-painel.jpg" width="280" alt="Trilha Viva study dashboard"></a>
 
 **[Trilha Viva](https://github.com/luigiscofano/trilha-viva)**
 
