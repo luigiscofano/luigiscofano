@@ -21,7 +21,7 @@ I enjoy understanding how tools work: how a model interprets an image, how infor
 
 ### Explore by area
 
-- **AI and data:** GestureLab, Old Tupi research, and Trilha Viva (optional AI, not yet connected).
+- **AI and data:** [Kaggle-oRF](https://github.com/luigiscofano/Kaggle-oRF), GestureLab, Old Tupi research, and Trilha Viva (optional AI, not yet connected).
 - **Web products:** Intuição, Trilha Viva, Pokédex, and the [portfolio](https://luigiscofano.github.io/portfolio/).
 - **Engineering and systems:** LabDig, Digital Systems, and MVN Assembly.
 - **Learning and experiments:** Numerical Methods, Tetris in C, Algorithms, and Object-Oriented Programming.
@@ -33,7 +33,9 @@ Start with **Intuição, Tiny Tide: Between Islands, Trilha Viva, GestureLab, Ol
 | If you want to explore… | Start with |
 | --- | --- |
 | Browser-based logic, geometry, and strategy games with game AI | [Intuição](https://github.com/luigiscofano/intuicao) |
-| Turn-based pixel-art puzzles that use a changing tide | [Tiny Tide: Between Islands](https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda) |
+| Turn-based pixel-art puzzles that use a changing tide | [Tiny Tide: Between Islands](https://github.com/luigiscofano/mare-miuda-entre-ilhas/blob/main/README.en.md) |
+| Handcrafted pixel-art minigames you can play in a browser | [Miudezas](https://luigiscofano.github.io/Miudezas/) |
+| An oblique random forest with a reproducible synthetic example | [Kaggle-oRF](https://github.com/luigiscofano/Kaggle-oRF) |
 | Study materials, source review, and planning with local data | [Trilha Viva](https://github.com/luigiscofano/trilha-viva) |
 | A visual application using a webcam and gestures | [GestureLab](https://github.com/luigiscofano/gesturelab) |
 | Language research, OCR, and data quality | [Old Tupi research](https://github.com/luigiscofano/ic-pln-tupi-antigo) |
@@ -95,7 +97,7 @@ A turn-based pixel-art tide puzzle with 231 levels across eight worlds and a bil
 
 HTML · CSS · JavaScript · Canvas 2D
 
-[View on portfolio](https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda)
+[Case study](https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda) · [Code](https://github.com/luigiscofano/mare-miuda-entre-ilhas/blob/main/README.en.md)
 
 </td>
 <td width="33%" valign="top">
@@ -136,11 +138,20 @@ The game AI includes exact search with memoization in DESVIO and minimax with al
 
 ### Tiny Tide: Between Islands · Turn-based tide puzzles
 
-**[View on portfolio](https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda)** · HTML · CSS · JavaScript · Canvas 2D · Python
+**[Repository and how to play](https://github.com/luigiscofano/mare-miuda-entre-ilhas/blob/main/README.en.md#how-to-play)** · [Case study](https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda) · HTML · CSS · JavaScript · Canvas 2D · Python
 
 A turn-based pixel-art puzzle with **231 campaign levels across eight worlds**. The tide turns every three valid moves, so players plan their route across tidal flats before the water rises.
 
 The offline edition combines a deterministic game engine, Canvas 2D rendering, and a bilingual Portuguese/English interface. Switching languages does not restart the level.
+
+### Miudezas · Neighborhood minigames
+
+**[Repository](https://github.com/luigiscofano/Miudezas)** · HTML · CSS · JavaScript · Canvas 2D  
+[Play in your browser](https://luigiscofano.github.io/Miudezas/) · [Run locally](https://github.com/luigiscofano/Miudezas#executar)
+
+Ten pixel-art minigames with 30 handcrafted levels, standalone matches, and a neighborhood tour. Selected games add endless play or seeded levels checked for solvability. Preferences and personal records stay in the browser.
+
+---
 
 ### Trilha Viva · Study materials, sources, and review
 
@@ -177,6 +188,15 @@ The project combines a responsive interface, versioned data, reproducible import
 **[Repository](https://github.com/luigiscofano/usp-metodos-numericos)** · Python · NumPy · SciPy · Matplotlib · Jupyter
 
 Notebooks and an educational library covering roots, linear systems, Fourier transforms, interpolation, differential equations, and synthetic GPS. Experiments combine implementations, plots, and tests to study precision, convergence, and stability.
+
+### Kaggle-oRF · Oblique random forest
+
+**[Repository](https://github.com/luigiscofano/Kaggle-oRF)** · Python · NumPy · SciPy · scikit-learn · pandas  
+[Run the example](https://github.com/luigiscofano/Kaggle-oRF/blob/main/docs/execucao/README.md)
+
+A Poli-USP artificial intelligence project comparing axis-aligned and oblique forests. The oblique tree computes split directions with PCA/SVD at each node and selects a split by information gain. The reproducible demo uses synthetic data; no competition score is reported.
+
+---
 
 ### Tetris in C · Rules, terminal, and replay
 

@@ -1,6 +1,6 @@
 # Índice dos projetos
 
-Índice temático dos projetos selecionados do portfólio. Intuição e Trilha Viva foram atualizados em **16 de novembro de 2026**. Os links apontam para os repositórios públicos ou para a apresentação no portfólio quando o código não está publicado. Requisitos, limites e evidências detalhadas ficam na documentação de cada projeto.
+Índice temático dos projetos selecionados do portfólio. Os links apontam para os repositórios públicos ou para a apresentação no portfólio quando o código não está publicado. Requisitos, limites e evidências detalhadas ficam na documentação de cada projeto.
 
 [Perfil em português](../README.md) · [English profile](../README.en.md) · [Padrão de documentação](PADRAO_README.md)
 
@@ -8,6 +8,7 @@
 
 | Projeto | Conteúdo disponível | Caminho para explorar |
 | --- | --- | --- |
+| [Kaggle-oRF](https://github.com/luigiscofano/Kaggle-oRF) | Florestas ortogonal e oblíqua em Python; PCA/SVD por nó e demonstração sintética, sem resultado de competição publicado. | [Executar a demonstração](https://github.com/luigiscofano/Kaggle-oRF/blob/main/docs/execucao/README.md). |
 | [GestureLab](https://github.com/luigiscofano/gesturelab) | Quatro modos independentes: mãos, gestos, escrita no ar e comparação corporal com catálogo local. Python, OpenCV e MediaPipe. | [Instalação](https://github.com/luigiscofano/gesturelab/blob/main/docs/INSTALACAO.md), [uso](https://github.com/luigiscofano/gesturelab/blob/main/docs/USO.md) e [validação](https://github.com/luigiscofano/gesturelab/blob/main/docs/VALIDACAO.md). |
 | [IC · Tupi Antigo](https://github.com/luigiscofano/ic-pln-tupi-antigo) | Importação TSV, preservação da fonte, NFC, auditoria, exportação, métricas de erro e OCR opcional. Demonstração sintética, Colab e metodologia. | [Notebooks](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/notebooks/README.md), [metodologia](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/docs/METODOLOGIA.md) e [validação](https://github.com/luigiscofano/ic-pln-tupi-antigo/blob/main/docs/VALIDACAO.md). |
 
@@ -16,7 +17,8 @@
 | Projeto | Conteúdo disponível | Caminho para explorar |
 | --- | --- | --- |
 | [Intuição](https://github.com/luigiscofano/intuicao) | 19 jogos nas categorias Intuição, Raciocínio Lógico e Versus; azulejos, mascotes e ilustrações com identidade brasileira. | [Jogar no navegador](https://luigiscofano.github.io/intuicao/) e [manuais](https://github.com/luigiscofano/intuicao/blob/main/docs/jogos/README.md). |
-| [Maré Miúda: Entre Ilhas](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda) | Quebra-cabeça por turnos em pixel art, com 231 fases em oito mundos e interface em português e inglês na edição offline. | [Apresentação no portfólio](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda). |
+| [Maré Miúda: Entre Ilhas](https://github.com/luigiscofano/mare-miuda-entre-ilhas) | Quebra-cabeça por turnos em pixel art, com 231 fases em oito mundos e interface em português e inglês na edição offline. | [Como jogar](https://github.com/luigiscofano/mare-miuda-entre-ilhas#como-jogar) e [portfólio](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda). |
+| [Miudezas](https://github.com/luigiscofano/Miudezas) | Dez minijogos de bairro em pixel art, 30 fases autorais e modos adicionais. | [Jogar no navegador](https://luigiscofano.github.io/Miudezas/) e [executar localmente](https://github.com/luigiscofano/Miudezas#executar). |
 | [Pokédex](https://github.com/luigiscofano/Pokedex) | Aplicação web com 1.025 espécies, formas alternativas, shiny, evoluções, tipos e dados por jogo. O exercício Java original permanece independente. | [Explorar no navegador](https://pokedex-luigi-explorer.luigiscofano.chatgpt.site), [guia de uso](https://github.com/luigiscofano/Pokedex/blob/main/docs/usuario/README.md) e [Java original](https://github.com/luigiscofano/Pokedex/blob/main/src/README.md). |
 | [Trilha Viva](https://github.com/luigiscofano/trilha-viva) | Materiais, PDF/OCR local, referências, revisão, plano, histórico e backup. IA, automações, contas e sincronização não estão ativas na demonstração. | [Aplicação](https://luigiscofano.github.io/trilha-viva/) e [documentação](https://github.com/luigiscofano/trilha-viva/blob/main/docs/README.md). |
 

@@ -59,7 +59,7 @@ Quebra-cabeça de maré por turnos em pixel art, com 231 fases em oito mundos e 
 
 HTML · CSS · JavaScript · Canvas 2D
 
-[Ver no portfólio](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda)
+[Ver no portfólio](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda) · [Código](https://github.com/luigiscofano/mare-miuda-entre-ilhas)
 
 </td>
 <td width="33%" valign="top">
@@ -91,7 +91,7 @@ HTML · CSS · JavaScript · PDF.js
 
 Pesquisa em destaque: [IC · Tupi Antigo — PLN, OCR e dados linguísticos no IME-USP](https://github.com/luigiscofano/ic-pln-tupi-antigo).
 
-Também no portfólio: [Maré Miúda: Entre Ilhas](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda), um quebra-cabeça de maré para jogar por turnos.
+Projeto acadêmico em destaque: [Kaggle-oRF](https://github.com/luigiscofano/Kaggle-oRF), uma floresta de decisão oblíqua com demonstração em dados sintéticos.
 
 <details>
 <summary><strong>Trajetória e formação</strong></summary>
@@ -164,11 +164,20 @@ O projeto também aplica **inteligência artificial a jogos**: DESVIO utiliza bu
 
 ### Maré Miúda: Entre Ilhas · Quebra-cabeça de maré
 
-**[Conhecer no portfólio](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda)** · HTML · CSS · JavaScript · Canvas 2D · Python
+**[Repositório e como jogar](https://github.com/luigiscofano/mare-miuda-entre-ilhas#como-jogar)** · [Portfólio](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda) · HTML · CSS · JavaScript · Canvas 2D · Python
 
 Quebra-cabeça por turnos em pixel art com **231 fases de campanha em oito mundos**. A maré vira a cada três movimentos válidos: o jogador planeja os passos para atravessar os baixios antes que a água suba.
 
 A edição offline reúne um motor determinístico, renderização em Canvas 2D e interface em português e inglês. O idioma troca sem reiniciar a partida.
+
+---
+
+### Miudezas · Minijogos de bairro
+
+**[Repositório](https://github.com/luigiscofano/Miudezas)** · HTML · CSS · JavaScript · Canvas 2D  
+[Jogar no navegador](https://luigiscofano.github.io/Miudezas/) · [Como executar](https://github.com/luigiscofano/Miudezas#executar)
+
+Dez minijogos de bairro em pixel art, com 30 fases autorais, partidas avulsas e uma sequência pelo bairro. Alguns jogos incluem modo sem fim ou fases geradas por semente e validadas antes de jogar. Preferências e recordes ficam no navegador.
 
 ---
 
@@ -225,6 +234,15 @@ Notebooks e implementações de raízes, sistemas lineares, Fourier, interpolaç
 <p><img src="docs/assets/metodos-numericos-julia.png" width="640" alt="Fractal de Julia calculado no projeto de Métodos Numéricos"></p>
 
 *Conjunto de Julia: resultado numérico, com eixos e parâmetros da experiência.*
+
+---
+
+### Kaggle-oRF · Floresta de decisão oblíqua
+
+**[Repositório](https://github.com/luigiscofano/Kaggle-oRF)** · Python · NumPy · SciPy · scikit-learn · pandas  
+[Guia de execução](https://github.com/luigiscofano/Kaggle-oRF/blob/main/docs/execucao/README.md)
+
+Projeto de Inteligência Artificial da Poli-USP com florestas ortogonais e oblíquas. A árvore oblíqua calcula direções de corte por PCA/SVD a cada nó e escolhe a divisão pelo ganho de informação. A demonstração é reproduzível com dados sintéticos; não há pontuação de competição publicada.
 
 ---
 
