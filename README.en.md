@@ -52,7 +52,6 @@ Start with **Intuição, Tiny Tide: Between Islands, Trilha Viva, GestureLab, Ol
 <tr>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/intuicao"><img src="docs/assets/intuicao-cartao.svg" width="280" alt="Official Intuição logo"></a>
-<a href="https://github.com/luigiscofano/luigiscofano/blob/main/docs/assets/intuicao-cerco.png"><img src="docs/assets/intuicao-cerco.png" width="280" alt="A game of Cerco in Intuição"></a>
 
 **[Intuição](https://github.com/luigiscofano/intuicao)**
 
@@ -65,7 +64,6 @@ HTML · CSS · JavaScript
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/gesturelab"><img src="docs/assets/gesturelab-cartao.svg" width="280" alt="Official GestureLab logo"></a>
-<a href="https://github.com/luigiscofano/gesturelab/blob/main/docs/assets/posematch_preview.png"><img src="https://raw.githubusercontent.com/luigiscofano/gesturelab/main/docs/assets/posematch_preview.png" width="280" alt="PoseMatch preview using synthetic data"></a>
 
 **[GestureLab](https://github.com/luigiscofano/gesturelab)**
 
@@ -78,7 +76,6 @@ Python · OpenCV · MediaPipe
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/usp-metodos-numericos"><img src="docs/assets/chua-cartao.svg" width="280" alt="Actual Chua attractor plot published in the portfolio"></a>
-<a href="https://github.com/luigiscofano/luigiscofano/blob/main/docs/assets/metodos-numericos-julia.png"><img src="docs/assets/metodos-numericos-julia.png" width="280" alt="Julia set computed in the Numerical Methods notebook"></a>
 
 **[Numerical Methods](https://github.com/luigiscofano/usp-metodos-numericos)**
 
@@ -93,7 +90,6 @@ Python · NumPy · Matplotlib
 <tr>
 <td width="33%" valign="top">
 <a href="https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda"><img src="docs/assets/mare-miuda-cartao.svg" width="280" alt="Official Tiny Tide: Between Islands logo"></a>
-<a href="https://github.com/luigiscofano/mare-miuda-entre-ilhas/blob/main/docs/arte/galeria/travessias/mundo-01-baixa.png"><img src="https://raw.githubusercontent.com/luigiscofano/mare-miuda-entre-ilhas/main/docs/arte/galeria/travessias/mundo-01-baixa.png" width="280" alt="A low-tide crossing with the crab in Tiny Tide"></a>
 
 **[Tiny Tide: Between Islands](https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda)**
 
@@ -106,7 +102,6 @@ HTML · CSS · JavaScript · Canvas 2D
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/Miudezas"><img src="docs/assets/miudezas-cartao.svg" width="280" alt="Official Miudezas wordmark"></a>
-<a href="https://github.com/luigiscofano/Miudezas/blob/main/docs/imagens/telas/selecao-jogos.jpg"><img src="https://raw.githubusercontent.com/luigiscofano/Miudezas/main/docs/imagens/telas/selecao-jogos.jpg" width="280" alt="Minigame selection in Miudezas"></a>
 
 **[Miudezas](https://github.com/luigiscofano/Miudezas)**
 
@@ -119,7 +114,6 @@ HTML · CSS · JavaScript · Canvas 2D
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/trilha-viva"><img src="docs/assets/trilha-viva-cartao.svg" width="280" alt="Official blue Trilha Viva brand with an open book"></a>
-<a href="https://github.com/luigiscofano/portfolio/blob/main/public/images/projects/captures/trilha-viva-painel.jpg"><img src="https://raw.githubusercontent.com/luigiscofano/portfolio/main/public/images/projects/captures/trilha-viva-painel.jpg" width="280" alt="Trilha Viva study dashboard"></a>
 
 **[Trilha Viva](https://github.com/luigiscofano/trilha-viva)**
 
@@ -142,6 +136,8 @@ An educational platform with **19 browser games organized into Intuição, Logic
 
 The game AI includes exact search with memoization in DESVIO and minimax with alpha-beta pruning and heuristics in CERCO. The aim is to increase difficulty through the decisions and relationships players discover.
 
+<p><a href="https://github.com/luigiscofano/luigiscofano/blob/main/docs/assets/intuicao-cerco.png"><img src="docs/assets/intuicao-cerco.png" width="640" alt="A game of Cerco in Intuição."></a><br><em>A game of Cerco in Intuição.</em></p>
+
 ### Tiny Tide: Between Islands · Turn-based tide puzzles
 
 **[Repository and how to play](https://github.com/luigiscofano/mare-miuda-entre-ilhas/blob/main/README.en.md#how-to-play)** · [Case study](https://luigiscofano.github.io/portfolio/?lang=en#projeto-mare-miuda) · HTML · CSS · JavaScript · Canvas 2D · Python
@@ -150,12 +146,18 @@ A turn-based pixel-art puzzle with **231 campaign levels across eight worlds**. 
 
 The offline edition combines a deterministic game engine, Canvas 2D rendering, and a bilingual Portuguese/English interface. Switching languages does not restart the level.
 
+<p><a href="https://github.com/luigiscofano/portfolio/blob/main/public/images/projects/mare-miuda/porto.png"><img src="https://raw.githubusercontent.com/luigiscofano/portfolio/main/public/images/projects/mare-miuda/porto.png" width="640" alt="Starting Harbor, the Tiny Tide title screen."></a><br><em>Starting Harbor, the Tiny Tide title screen.</em></p>
+
+<p><a href="https://github.com/luigiscofano/mare-miuda-entre-ilhas/blob/main/docs/arte/galeria/travessias/mundo-01-baixa.png"><img src="https://raw.githubusercontent.com/luigiscofano/mare-miuda-entre-ilhas/main/docs/arte/galeria/travessias/mundo-01-baixa.png" width="640" alt="A low-tide crossing with the crab in Tiny Tide."></a><br><em>A low-tide crossing with the crab in Tiny Tide.</em></p>
+
 ### Miudezas · Neighborhood minigames
 
 **[Repository](https://github.com/luigiscofano/Miudezas)** · HTML · CSS · JavaScript · Canvas 2D  
 [Play in your browser](https://luigiscofano.github.io/Miudezas/) · [Run locally](https://github.com/luigiscofano/Miudezas#executar)
 
 Ten pixel-art minigames with 30 handcrafted levels, standalone matches, and a neighborhood tour. Selected games add endless play or seeded levels checked for solvability. Preferences and personal records stay in the browser.
+
+<p><a href="https://github.com/luigiscofano/Miudezas/blob/main/docs/imagens/telas/selecao-jogos.jpg"><img src="https://raw.githubusercontent.com/luigiscofano/Miudezas/main/docs/imagens/telas/selecao-jogos.jpg" width="640" alt="Minigame selection in Miudezas."></a><br><em>Minigame selection in Miudezas.</em></p>
 
 ---
 
@@ -168,11 +170,15 @@ A study platform for texts and PDFs, source references, human review, task plann
 
 **Current status:** data stays in the browser. The optional AI backend and contracts are available, but no provider is active in the public demo. Supabase accounts and synchronization are not active; n8n, Make, and Zapier have documented integration points, not operational connections. Demonstration content is distinguished from actual AI output, and source checking remains a human responsibility.
 
+<p><a href="https://github.com/luigiscofano/portfolio/blob/main/public/images/projects/captures/trilha-viva-painel.jpg"><img src="https://raw.githubusercontent.com/luigiscofano/portfolio/main/public/images/projects/captures/trilha-viva-painel.jpg" width="640" alt="Trilha Viva study dashboard with demo data."></a><br><em>Trilha Viva study dashboard with demo data.</em></p>
+
 ### GestureLab · Hands, gestures, air writing, and poses
 
 **[Repository](https://github.com/luigiscofano/gesturelab)** · Python · OpenCV · MediaPipe · NumPy
 
 Computer vision application with four independent modes: hand tracking, gesture recognition, drawing in the air, and pose matching against a local catalog. Uses pretrained MediaPipe models, with drawing export, geometric comparisons, and tests. Air writing currently produces drawings and trajectories.
+
+<p><a href="https://github.com/luigiscofano/gesturelab/blob/main/docs/assets/posematch_preview.png"><img src="https://raw.githubusercontent.com/luigiscofano/gesturelab/main/docs/assets/posematch_preview.png" width="640" alt="PoseMatch interface rendered with synthetic input, not a webcam capture."></a><br><em>PoseMatch interface rendered with synthetic input, not a webcam capture.</em></p>
 
 ### Old Tupi research · OCR and linguistic data
 
@@ -189,11 +195,15 @@ A web application with **1,025 species, 1,351 varieties, and 1,579 cataloged for
 
 The project combines a responsive interface, versioned data, reproducible imports, tests, and documentation. The original 2023 Java exercise is preserved as an independent module, showing the evolution of my first repository into a browsable application.
 
+<p><a href="https://github.com/luigiscofano/luigiscofano/blob/main/docs/assets/pokedex-grade-johto.png"><img src="docs/assets/pokedex-grade-johto.png" width="640" alt="Johto species grid in the Pokédex."></a><br><em>Johto species grid in the Pokédex.</em></p>
+
 ### Numerical Methods · Reproducible mathematical experiments
 
 **[Repository](https://github.com/luigiscofano/usp-metodos-numericos)** · Python · NumPy · SciPy · Matplotlib · Jupyter
 
 Notebooks and an educational library covering roots, linear systems, Fourier transforms, interpolation, differential equations, and synthetic GPS. Experiments combine implementations, plots, and tests to study precision, convergence, and stability.
+
+<p><a href="https://github.com/luigiscofano/luigiscofano/blob/main/docs/assets/metodos-numericos-julia.png"><img src="docs/assets/metodos-numericos-julia.png" width="640" alt="Julia set computed in the Numerical Methods project."></a><br><em>Julia set computed in the Numerical Methods project.</em></p>
 
 ### Kaggle-oRF · Oblique random forest
 
@@ -201,6 +211,8 @@ Notebooks and an educational library covering roots, linear systems, Fourier tra
 [Run the example](https://github.com/luigiscofano/Kaggle-oRF/blob/main/docs/execucao/README.md)
 
 A Poli-USP artificial intelligence project comparing axis-aligned and oblique forests. The oblique tree computes split directions with PCA/SVD at each node and selects a split by information gain. The reproducible demo uses synthetic data; no competition score is reported.
+
+<p><a href="https://github.com/luigiscofano/Kaggle-oRF/blob/main/docs/imagens/fronteiras.png"><img src="https://raw.githubusercontent.com/luigiscofano/Kaggle-oRF/main/docs/imagens/fronteiras.png" width="640" alt="Teaching diagram of axis-aligned and oblique splits, not competition results."></a><br><em>Teaching diagram of axis-aligned and oblique splits, not competition results.</em></p>
 
 ---
 
@@ -217,6 +229,8 @@ Terminal game with movement, rotation, line clearing, scoring, and levels. A sep
 **[Repository](https://github.com/luigiscofano/usp-labdig)** · Verilog · Icarus Verilog · FPGA/Quartus · Processing
 
 Group coursework with circuits, state machines, UART, PWM, and sensors, including the Math Genius and Guardião do Paredão games. Includes source code, reports, and simulations; revised hardware designs still require physical validation.
+
+<p><a href="https://github.com/luigiscofano/portfolio/blob/main/public/images/projects/captures/labdig-math-genius.png"><img src="https://raw.githubusercontent.com/luigiscofano/portfolio/main/public/images/projects/captures/labdig-math-genius.png" width="640" alt="Math Genius: slide from the Digital Laboratory presentation, not a hardware photo."></a><br><em>Math Genius: slide from the Digital Laboratory presentation, not a hardware photo.</em></p>
 
 ### PCS3225 · Double-Dabble, calculator, and RISC-V
 

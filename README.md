@@ -14,7 +14,6 @@ Desenvolvo produtos web e experimentos de IA aplicada, dados e computação. Meu
 <tr>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/intuicao"><img src="docs/assets/intuicao-cartao.svg" width="280" alt="Logo oficial do Intuição"></a>
-<a href="https://github.com/luigiscofano/luigiscofano/blob/main/docs/assets/intuicao-cerco.png"><img src="docs/assets/intuicao-cerco.png" width="280" alt="Partida de Cerco no Intuição"></a>
 
 **[Intuição](https://github.com/luigiscofano/intuicao)**
 
@@ -27,7 +26,6 @@ HTML · CSS · JavaScript
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/gesturelab"><img src="docs/assets/gesturelab-cartao.svg" width="280" alt="Logo oficial do GestureLab"></a>
-<a href="https://github.com/luigiscofano/gesturelab/blob/main/docs/assets/posematch_preview.png"><img src="https://raw.githubusercontent.com/luigiscofano/gesturelab/main/docs/assets/posematch_preview.png" width="280" alt="Prévia do PoseMatch com dados sintéticos"></a>
 
 **[GestureLab](https://github.com/luigiscofano/gesturelab)**
 
@@ -40,7 +38,6 @@ Python · OpenCV · MediaPipe
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/usp-metodos-numericos"><img src="docs/assets/chua-cartao.svg" width="280" alt="Gráfico real do atrator de Chua publicado no portfólio"></a>
-<a href="https://github.com/luigiscofano/luigiscofano/blob/main/docs/assets/metodos-numericos-julia.png"><img src="docs/assets/metodos-numericos-julia.png" width="280" alt="Conjunto de Julia calculado no notebook de Métodos Numéricos"></a>
 
 **[Métodos Numéricos](https://github.com/luigiscofano/usp-metodos-numericos)**
 
@@ -55,7 +52,6 @@ Python · NumPy · Matplotlib
 <tr>
 <td width="33%" valign="top">
 <a href="https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda"><img src="docs/assets/mare-miuda-cartao.svg" width="280" alt="Logo oficial de Maré Miúda: Entre Ilhas"></a>
-<a href="https://github.com/luigiscofano/mare-miuda-entre-ilhas/blob/main/docs/arte/galeria/travessias/mundo-01-baixa.png"><img src="https://raw.githubusercontent.com/luigiscofano/mare-miuda-entre-ilhas/main/docs/arte/galeria/travessias/mundo-01-baixa.png" width="280" alt="Travessia de Praia das Conchas em maré baixa, com o Siri"></a>
 
 **[Maré Miúda: Entre Ilhas](https://luigiscofano.github.io/portfolio/?lang=pt#projeto-mare-miuda)**
 
@@ -68,7 +64,6 @@ HTML · CSS · JavaScript · Canvas 2D
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/Miudezas"><img src="docs/assets/miudezas-cartao.svg" width="280" alt="Logotipo oficial de Miudezas"></a>
-<a href="https://github.com/luigiscofano/Miudezas/blob/main/docs/imagens/telas/selecao-jogos.jpg"><img src="https://raw.githubusercontent.com/luigiscofano/Miudezas/main/docs/imagens/telas/selecao-jogos.jpg" width="280" alt="Seleção de minijogos de Miudezas"></a>
 
 **[Miudezas](https://github.com/luigiscofano/Miudezas)**
 
@@ -81,7 +76,6 @@ HTML · CSS · JavaScript · Canvas 2D
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/luigiscofano/trilha-viva"><img src="docs/assets/trilha-viva-cartao.svg" width="280" alt="Marca oficial azul de Trilha Viva, com livro aberto"></a>
-<a href="https://github.com/luigiscofano/portfolio/blob/main/public/images/projects/captures/trilha-viva-painel.jpg"><img src="https://raw.githubusercontent.com/luigiscofano/portfolio/main/public/images/projects/captures/trilha-viva-painel.jpg" width="280" alt="Painel de estudos de Trilha Viva"></a>
 
 **[Trilha Viva](https://github.com/luigiscofano/trilha-viva)**
 
@@ -176,6 +170,10 @@ Quebra-cabeça por turnos em pixel art com **231 fases de campanha em oito mundo
 
 A edição offline reúne um motor determinístico, renderização em Canvas 2D e interface em português e inglês. O idioma troca sem reiniciar a partida.
 
+<p><a href="https://github.com/luigiscofano/portfolio/blob/main/public/images/projects/mare-miuda/porto.png"><img src="https://raw.githubusercontent.com/luigiscofano/portfolio/main/public/images/projects/mare-miuda/porto.png" width="640" alt="Porto de Partida, tela inicial de Maré Miúda."></a><br><em>Porto de Partida, tela inicial de Maré Miúda.</em></p>
+
+<p><a href="https://github.com/luigiscofano/mare-miuda-entre-ilhas/blob/main/docs/arte/galeria/travessias/mundo-01-baixa.png"><img src="https://raw.githubusercontent.com/luigiscofano/mare-miuda-entre-ilhas/main/docs/arte/galeria/travessias/mundo-01-baixa.png" width="640" alt="Travessia em maré baixa na Praia das Conchas."></a><br><em>Travessia em maré baixa na Praia das Conchas.</em></p>
+
 ---
 
 ### Miudezas · Minijogos de bairro
@@ -184,6 +182,8 @@ A edição offline reúne um motor determinístico, renderização em Canvas 2D 
 [Jogar no navegador](https://luigiscofano.github.io/Miudezas/) · [Como executar](https://github.com/luigiscofano/Miudezas#executar)
 
 Dez minijogos de bairro em pixel art, com 30 fases autorais, partidas avulsas e uma sequência pelo bairro. Alguns jogos incluem modo sem fim ou fases geradas por semente e validadas antes de jogar. Preferências e recordes ficam no navegador.
+
+<p><a href="https://github.com/luigiscofano/Miudezas/blob/main/docs/imagens/telas/selecao-jogos.jpg"><img src="https://raw.githubusercontent.com/luigiscofano/Miudezas/main/docs/imagens/telas/selecao-jogos.jpg" width="640" alt="Seleção de minijogos de Miudezas."></a><br><em>Seleção de minijogos de Miudezas.</em></p>
 
 ---
 
@@ -196,6 +196,8 @@ Plataforma de estudos para organizar textos e PDFs, extrair referências, revisa
 
 **Estado atual:** materiais, revisão e progresso ficam no navegador. O backend e os contratos de IA são opcionais; nenhum provedor está ativo na demonstração pública. Contas e sincronização com Supabase ainda não estão ativas; n8n, Make e Zapier têm pontos de integração documentados, não uma integração operacional. O projeto distingue conteúdo demonstrativo de geração real e exige conferência humana das fontes.
 
+<p><a href="https://github.com/luigiscofano/portfolio/blob/main/public/images/projects/captures/trilha-viva-painel.jpg"><img src="https://raw.githubusercontent.com/luigiscofano/portfolio/main/public/images/projects/captures/trilha-viva-painel.jpg" width="640" alt="Painel de estudos de Trilha Viva com dados de demonstração."></a><br><em>Painel de estudos de Trilha Viva com dados de demonstração.</em></p>
+
 ---
 
 ### GestureLab · Mãos, gestos, escrita no ar e poses
@@ -203,6 +205,8 @@ Plataforma de estudos para organizar textos e PDFs, extrair referências, revisa
 **[Abrir repositório](https://github.com/luigiscofano/gesturelab)** · Python · OpenCV · MediaPipe · NumPy
 
 Visão computacional com webcam para rastrear mãos, reconhecer gestos, desenhar no ar e comparar poses com um catálogo local. Reúne quatro modos independentes, controles interativos e exportação de desenhos e trajetórias.
+
+<p><a href="https://github.com/luigiscofano/gesturelab/blob/main/docs/assets/posematch_preview.png"><img src="https://raw.githubusercontent.com/luigiscofano/gesturelab/main/docs/assets/posematch_preview.png" width="640" alt="Interface do PoseMatch renderizada com dados sintéticos, sem captura de webcam."></a><br><em>Interface do PoseMatch renderizada com dados sintéticos, sem captura de webcam.</em></p>
 
 ---
 
@@ -250,6 +254,8 @@ Notebooks e implementações de raízes, sistemas lineares, Fourier, interpolaç
 
 Projeto de Inteligência Artificial da Poli-USP com florestas ortogonais e oblíquas. A árvore oblíqua calcula direções de corte por PCA/SVD a cada nó e escolhe a divisão pelo ganho de informação. A demonstração é reproduzível com dados sintéticos; não há pontuação de competição publicada.
 
+<p><a href="https://github.com/luigiscofano/Kaggle-oRF/blob/main/docs/imagens/fronteiras.png"><img src="https://raw.githubusercontent.com/luigiscofano/Kaggle-oRF/main/docs/imagens/fronteiras.png" width="640" alt="Figura didática dos cortes ortogonal e oblíquo, sem resultados da competição."></a><br><em>Figura didática dos cortes ortogonal e oblíquo, sem resultados da competição.</em></p>
+
 ---
 
 ### Tetris em C · Regras, terminal e replay
@@ -267,6 +273,8 @@ Jogo de Tetris no terminal, com movimentação, rotação, pontuação e níveis
 **[Abrir repositório](https://github.com/luigiscofano/usp-labdig)** · Verilog · Icarus Verilog · FPGA/Quartus · Processing
 
 Experiências e projetos em grupo da Poli-USP com máquinas de estados, sensores, UART e PWM, incluindo os jogos Math Genius e Guardião do Paredão. Reúne código, relatórios e simulações; as revisões ainda têm validação em placa pendente.
+
+<p><a href="https://github.com/luigiscofano/portfolio/blob/main/public/images/projects/captures/labdig-math-genius.png"><img src="https://raw.githubusercontent.com/luigiscofano/portfolio/main/public/images/projects/captures/labdig-math-genius.png" width="640" alt="Math Genius: slide da apresentação do LabDig, não uma foto do hardware."></a><br><em>Math Genius: slide da apresentação do LabDig, não uma foto do hardware.</em></p>
 
 ---
 
